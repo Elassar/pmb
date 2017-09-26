@@ -10,7 +10,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="11">ok</entry>
 <entry code="110">Categorie</entry>
 <entry code="200">Scheda bibliografica sconosciuta o inaccessibile</entry>
-<entry code="201">Responsabilità</entry>
+<entry code="201">ResponsabilitÃ </entry>
 <entry code="202">Aggiungere questa scheda al raccoglitore</entry>
 <entry code="203">Contiene</entry>
 <entry code="204">Sommario/Estratto</entry>
@@ -48,11 +48,11 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="friday_initial">V</entry>
 <entry code="saturday_initial">S</entry>
 <entry code="sunday_initial">D</entry>
-<entry code="Monday">lunedì</entry>
-<entry code="Tuesday">martedì</entry>
-<entry code="Wednesday">mercoledì</entry>
-<entry code="Thursday">giovedì</entry>
-<entry code="Friday">venerdì</entry>
+<entry code="Monday">lunedÃ¬</entry>
+<entry code="Tuesday">martedÃ¬</entry>
+<entry code="Wednesday">mercoledÃ¬</entry>
+<entry code="Thursday">giovedÃ¬</entry>
+<entry code="Friday">venerdÃ¬</entry>
 <entry code="Saturday">sabato</entry>
 <entry code="Sunday">domenica</entry>
 <entry code="charset">iso-8859-1</entry>
@@ -70,7 +70,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_show_modify_valid">Esegui</entry>
 <entry code="empr_new_password">Digitare la nuova password:</entry>
 <entry code="empr_confirm_new_password">Ridigitare la password:</entry>
-<entry code="empr_password_changed">La password è stata cambiata con successo.</entry>
+<entry code="empr_password_changed">La password Ã¨ stata cambiata con successo.</entry>
 <entry code="empr_password_does_not_match">Le password immesse non corrispondono.</entry>
 <entry code="empr_bt_show_all">Prestiti in corso</entry>
 <entry code="empr_bt_show_late">Prestiti scaduti</entry>
@@ -79,7 +79,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_late">Prestiti scaduti</entry>
 <entry code="empr_no_loan">Nessun prestito in corso</entry>
 <entry code="empr_no_late">Nessun prestito scaduto</entry>
-<entry code="no_document_found"><![CDATA[Non è stato trovato nessun documento]]></entry>
+<entry code="no_document_found"><![CDATA[Non Ã¨ stato trovato nessun documento]]></entry>
 <entry code="available">Disponibile</entry>
 <entry code="exclu">Escluso dal prestito</entry>
 <entry code="out_until">In prestito sino al</entry>
@@ -134,7 +134,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="common_tpl_meteo"><![CDATA[il tempo a]]></entry>
 <entry code="common_tpl_address"><![CDATA[Indirizzo]]></entry>
 <entry code="empr_tpl_emprheader">Scheda del lettore</entry>
-<entry code="simple_search_tpl_text">Qui è possibile effettuare una ricerca usando una o più parole chiave (titolo, autore, editore, tema,...)</entry>
+<entry code="simple_search_tpl_text">Qui Ã¨ possibile effettuare una ricerca usando una o piÃ¹ parole chiave (titolo, autore, editore, tema,...)</entry>
 <entry code="empr_tpl_title">Scheda del lettore</entry>
 <entry code="empr_tpl_prof">Professione</entry>
 <entry code="empr_tpl_year">Anno di nascita</entry>
@@ -219,9 +219,9 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="bull_mention_date">Indicazione di data: </entry>
 <entry code="bull_date_date">Apparso il: </entry>
 <entry code="bull_dep">Spoglio</entry>
-<entry code="resa_no_expl">Nessun esemplare di questo documento è disponibile per la prenotazione.</entry>
-<entry code="resa_doc_dispo">Prenotazione: il documento che si vuole prenotare è già disponibile:</entry>
-<entry code="resa_doc_deja_reserve">Documento già prenotato</entry>
+<entry code="resa_no_expl">Nessun esemplare di questo documento Ã¨ disponibile per la prenotazione.</entry>
+<entry code="resa_doc_dispo">Prenotazione: il documento che si vuole prenotare Ã¨ giÃ  disponibile:</entry>
+<entry code="resa_doc_deja_reserve">Documento giÃ  prenotato</entry>
 <entry code="empr_no_resa">Nessun documento prenotato</entry>
 <entry code="empr_resa_empty">Nessuna prenotazione registrata.</entry>
 <entry code="empr_resa_how_to">E' possibile aggiungere una prenotazione effettuando una ricerca partendo dalla pagina iniziale cliccando su</entry>
@@ -229,7 +229,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_make_resa">Prenota un documento</entry>
 <entry code="empr_resa_only_loaned_book">E' possibile prenotare solo opere attualmente in prestito.</entry>
 <entry code="explnum">Documento elettronico</entry>
-<entry code="resa_quota_pret_error">La prenotazione non è possibile</entry>
+<entry code="resa_quota_pret_error">La prenotazione non Ã¨ possibile</entry>
 <entry code="266">Note sul contenuto</entry>
 <entry code="267">Sommario/estratto</entry>
 <entry code="324">Indicizzazione libera</entry>
@@ -246,10 +246,10 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="search_or">O</entry>
 <entry code="search_exept">Salvo</entry>
 <entry code="search_empty_field">Campo vuoto</entry>
-<entry code="search_empty_error_message">Il campo %s è vuoto!</entry>
+<entry code="search_empty_error_message">Il campo %s Ã¨ vuoto!</entry>
 <entry code="search_search_extended">Ricerca avanzata</entry>
 <entry code="search_back">Ritorna alla pagina di ricerca</entry>
-<entry code="search_no_fields">Non è stato selezionato nessun campo per la ricerca</entry>
+<entry code="search_no_fields">Non Ã¨ stato selezionato nessun campo per la ricerca</entry>
 <entry code="search_result">Risultato della ricerca avanzata</entry>
 <entry code="925">Aggiungi</entry>
 <entry code="142">Cerca</entry>
@@ -302,19 +302,19 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="colors_marguerite">Margherita dei colori</entry>
 <entry code="put_mouse_over_petals">passate il vostro mouse sui petali della margherita...</entry>
 <entry code="extended_use_at_least_one">utilizzare almeno un campo!</entry>
-<entry code="extended_empty_field">Il campo %s è vuoto, completate la vostra ricerca!</entry>
+<entry code="extended_empty_field">Il campo %s Ã¨ vuoto, completate la vostra ricerca!</entry>
 <entry code="empr_type_card_number">Scegli una userid utente</entry>
 <entry code="empr_try_again">Riprova</entry>
 <entry code="empr_bad_login">combinazione userid/password errata</entry>
 <entry code="empr_my_account">Pagina personale</entry>
 <entry code="empr_logout">Esci</entry>
-<entry code="session_expired">Attenzione, è da più di %s minuti che viene utilizzato l'OPAC. La sessione è scaduta, riconnettersi per accedere alla propria pagina personale!</entry>
+<entry code="session_expired">Attenzione, Ã¨ da piÃ¹ di %s minuti che viene utilizzato l'OPAC. La sessione Ã¨ scaduta, riconnettersi per accedere alla propria pagina personale!</entry>
 <entry code="resa_cleared">Prenotazione cancellata</entry>
-<entry code="resa_failed">Non è stato possibile concludere la prenotazione</entry>
-<entry code="added_resa">La prenotazione è stata aggiunta</entry>
-<entry code="resa_rank"><![CDATA[<b>Priorità</b> : %s]]></entry>
-<entry code="expl_reserved_til"> (Il vostro esemplare è prenotato sino al %s)</entry>
-<entry code="resa_available_til">(La prenotazione è disponibile sino al %s)</entry>
+<entry code="resa_failed">Non Ã¨ stato possibile concludere la prenotazione</entry>
+<entry code="added_resa">La prenotazione Ã¨ stata aggiunta</entry>
+<entry code="resa_rank"><![CDATA[<b>PrioritÃ </b> : %s]]></entry>
+<entry code="expl_reserved_til"> (Il vostro esemplare Ã¨ prenotato sino al %s)</entry>
+<entry code="resa_available_til">(La prenotazione Ã¨ disponibile sino al %s)</entry>
 <entry code="resa_overtime">(Prenotazione scaduta)</entry>
 <entry code="actions_last_search">Torna alla pagina dei risultati dell'ultima ricerca</entry>
 <entry code="actions_last_page">Torna alla pagina %s della lista %s della %s</entry>
@@ -323,7 +323,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="actions_last_page_simple_search">ricerca semplice</entry>
 <entry code="actions_history">Consulta lo storico delle ricerche</entry>
 <entry code="actions_first_screen">Torna alla prima pagina %s...</entry>
-<entry code="actions_you_can">A partire da questa pagina è possibile:</entry>
+<entry code="actions_you_can">A partire da questa pagina Ã¨ possibile:</entry>
 <entry code="etageres_see">Mostra tutti gli altri scaffali</entry>
 <entry code="navig_categ">con le categorie</entry>
 <entry code="navig_lastnotices">con le ultime schede</entry>
@@ -333,18 +333,18 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="categ_see_alt">Mostra i documenti in questa categoria...</entry>
 <entry code="no_analysis">Nessuno spoglio per questa pubblicazione.</entry>
 <entry code="see_bull">Mostra le pubblicazioni disponibili</entry>
-<entry code="resa_deja_doc">Prenotazione impossibile : siete già in possesso di questo documento.</entry>
+<entry code="resa_deja_doc">Prenotazione impossibile : siete giÃ  in possesso di questo documento.</entry>
 <entry code="resa_effacer_resa">Cancella la prenotazione.</entry>
 <entry code="resa_enregistree">Prenotazione registrata.</entry>
 <entry code="resa_attente_validation"> (Prenotazione in attesa di convalida)</entry>
 <entry code="resa_nb_deja_resa"><![CDATA[ (Attualmente <b>!!nbresa!!</b> prenotazioni in corso su questo documento)]]></entry>
-<entry code="resa_nb_max_resa">Ci sono già !!nb_max_resa!! prenotazioni su questo documento, la prenotazione è impossibile.</entry>
-<entry code="empr_expire">Il vostro abbonamento alla biblioteca è scaduto!</entry>
+<entry code="resa_nb_max_resa">Ci sono giÃ  !!nb_max_resa!! prenotazioni su questo documento, la prenotazione Ã¨ impossibile.</entry>
+<entry code="empr_expire">Il vostro abbonamento alla biblioteca Ã¨ scaduto!</entry>
 <entry code="term_search_found_term">Termini trovati per l'espressione: </entry>
 <entry code="term_search_all_terms">Nessun espressione di ricerca, sono mostrati tutti i termini</entry>
 <entry code="term_show_see">Mostra :</entry>
 <entry code="term_show_see_also">Mostra anche:</entry>
-<entry code="term_already_in_use">La categoria che è stata selezionata è già utilizzata!</entry>
+<entry code="term_already_in_use">La categoria che Ã¨ stata selezionata Ã¨ giÃ  utilizzata!</entry>
 <entry code="term_search_type_h">ricerca gerarchica</entry>
 <entry code="term_search_type_t">ricerca per termini</entry>
 <entry code="search_by_terms">Termini del thesaurus</entry>
@@ -352,19 +352,19 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="aq_missing_term_and_p">Manca un termine e ) </entry>
 <entry code="aq_missing_term_and_g">Manca un termine e "</entry>
 <entry code="aq_and_not_error">+~ : per comporre un AND NOT (tranne), utilizzare il carattere -</entry>
-<entry code="aq_minus_error">-~ : - è già una negazione</entry>
-<entry code="aq_neg_error">~%s : un operatore + o - non può essere usato dopo una negazione</entry>
-<entry code="aq_only_one">è autorizzato un solo operatore</entry>
+<entry code="aq_minus_error">-~ : - Ã¨ giÃ  una negazione</entry>
+<entry code="aq_neg_error">~%s : un operatore + o - non puÃ² essere usato dopo una negazione</entry>
+<entry code="aq_only_one">Ã¨ autorizzato un solo operatore</entry>
 <entry code="aq_missing_g">" atteso</entry>
 <entry code="aq_missing_p">) attesi</entry>
 <entry code="aq_missing_space">Manca uno spazio</entry>
-<entry code="aq_no_term">Non c'è nessun termine pertinente per la ricerca</entry>
+<entry code="aq_no_term">Non c'Ã¨ nessun termine pertinente per la ricerca</entry>
 <entry code="cart_add_notices">%s schede aggiunte su %s</entry>
-<entry code="cart_already_in">%s già nel raccoglitore</entry>
-<entry code="cart_full">Il vostro raccoglitore è pieno</entry>
-<entry code="cart_empty">Il vostro raccoglitore è vuoto</entry>
-<entry code="cart_notice_exists">La scheda %s è già presente nel raccoglitore!</entry>
-<entry code="cart_notice_add">La scheda %s è stata aggiunta!</entry>
+<entry code="cart_already_in">%s giÃ  nel raccoglitore</entry>
+<entry code="cart_full">Il vostro raccoglitore Ã¨ pieno</entry>
+<entry code="cart_empty">Il vostro raccoglitore Ã¨ vuoto</entry>
+<entry code="cart_notice_exists">La scheda %s Ã¨ giÃ  presente nel raccoglitore!</entry>
+<entry code="cart_notice_add">La scheda %s Ã¨ stata aggiunta!</entry>
 <entry code="cart_contents">Il tuo raccoglitore contiene %s schede</entry>
 <entry code="cart_add_result_in">Aggiungi il risultato al tuo raccoglitore</entry>
 <entry code="show_cart_empty">Vuota il raccoglitore</entry>
@@ -372,11 +372,11 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="show_cart_print">Stampa...</entry>
 <entry code="show_cart_content">Contenuto del tuo raccoglitore</entry>
 <entry code="show_cart_n_notices">%s schede</entry>
-<entry code="show_cart_is_empty">Il tuo raccoglitore è vuoto!</entry>
+<entry code="show_cart_is_empty">Il tuo raccoglitore Ã¨ vuoto!</entry>
 <entry code="l_browse_title">Non hai un'idea da dove iniziare la ricerca? Entra in biblioteca...</entry>
 <entry code="l_title_search">Se hai un titolo o un autore in mente:  %sclicca qui per iniziare una ricerca%s, altrimenti esplorate le sezioni...</entry>
 <entry code="l_rayons">Ritorna alla vista di tutte le sezioni</entry>
-<entry code="l_general">Gereralità</entry>
+<entry code="l_general">GereralitÃ </entry>
 <entry code="l_unclassified">Non classificato</entry>
 <entry code="l_etageres">Dentro la sezione %s ci sono vari scaffali, cliccaci sopra per esplorarli...</entry>
 <entry code="l_themes">Dentro lo scaffale %s ci sono vari temi, cliccaci sopra per esplorarli...</entry>
@@ -402,7 +402,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="print_emaildest">Destinatario:</entry>
 <entry code="print_emailobjet">Oggetto : esportazione del contenuto del vostro raccoglitore: </entry>
 <entry code="print_emailsucceed">Contenuto del raccoglitore spedito a %s !</entry>
-<entry code="print_emailfailed">L'invio a %s è fallito!</entry>
+<entry code="print_emailfailed">L'invio a %s Ã¨ fallito!</entry>
 <entry code="print_emailclose">Chiudi la finestra</entry>
 <entry code="perio_list_bulletins">Elenco dei numeri o delle pubblicazioni:</entry>
 <entry code="search_help">Aiuto</entry>
@@ -429,17 +429,17 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="dsi_bannette_gerer_sauver">Registra</entry>
 <entry code="dsi_bannette_gerer_supprimer">Elimina</entry>
 <entry code="dsi_bannette_gerer_abonn">Abbonamento</entry>
-<entry code="dsi_bannette_gerer_nom_liste">Nome della lista delle novità</entry>
+<entry code="dsi_bannette_gerer_nom_liste">Nome della lista delle novitÃ </entry>
 <entry code="dsi_bannette_gerer_date">Data dell'ultimo invio</entry>
 <entry code="dsi_bannette_gerer_nb_notices">Numero schede</entry>
 <entry code="dsi_bt_bannette_priv">Crea un abbonamento</entry>
 <entry code="dsi_bannette_creer_sauver">Registra</entry>
-<entry code="dsi_priv_mail_1">Buongiorno, ecco la lista delle novità del tuo abbonamento personalizzato: </entry>
+<entry code="dsi_priv_mail_1">Buongiorno, ecco la lista delle novitÃ  del tuo abbonamento personalizzato: </entry>
 <entry code="dsi_priv_mail_2">Ritrovi questa informazione sul tuo conto (previa identificazione) cliccando sul pulsante</entry>
 <entry code="dsi_priv_mail_3">Contatto</entry>
-<entry code="dsi_bannette_creer_resultat">Lista delle novità «!!nom_bannette!!» creata.</entry>
+<entry code="dsi_bannette_creer_resultat">Lista delle novitÃ  Â«!!nom_bannette!!Â» creata.</entry>
 <entry code="dsi_priv_form_nom">Dai un nome a questa lista: </entry>
-<entry code="dsi_priv_form_periodicite">Periodicità invio (in giorni): </entry>
+<entry code="dsi_priv_form_periodicite">PeriodicitÃ  invio (in giorni): </entry>
 <entry code="dsi_diff_n_notices">%s scheda(e) inviata(e) su %s in totale.</entry>
 <entry code="rss_titre">Informazioni RSS</entry>
 <entry code="number">n.</entry>
@@ -471,19 +471,19 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_sugg_comment">Annotazioni</entry>
 <entry code="empr_bt_valid_sugg">Confermare</entry>
 <entry code="empr_sugg_ko">Indica almeno un titolo e un autore o un editore</entry>
-<entry code="empr_sugg_ok">Il tuo suggerimento è stato registrato</entry>
+<entry code="empr_sugg_ok">Il tuo suggerimento Ã¨ stato registrato</entry>
 <entry code="empr_sugg_mail">Indica la tua mail se vuoi essere informato</entry>
 <entry code="sugg_doit_etre_abon">Per inviare un suggerimento devi autenticarti:</entry>
 <entry code="sugg_empr_login">Identificativo:</entry>
 <entry code="sugg_empr_password">Password:</entry>
 <entry code="empr_sugg_url">URL associato</entry>
 <entry code="tags_search">Ricerca dei tag</entry>
-<entry code="tags_search_tpl_text">Puoi lanciare una ricerca su una o più parole chiave.</entry>
+<entry code="tags_search_tpl_text">Puoi lanciare una ricerca su una o piÃ¹ parole chiave.</entry>
 <entry code="addtag_titre">Aggiungi un tag</entry>
 <entry code="addtag_enregistre">Proposta tag registrata. Grazie</entry>
 <entry code="addtag_fermer">Chiudi la finestra</entry>
 <entry code="addtag_exist">Tag esistente.</entry>
-<entry code="addtag_pb_enr">C'è stato un problema durante la registrazione del tag. Riprova più tardi. Grazie</entry>
+<entry code="addtag_pb_enr">C'Ã¨ stato un problema durante la registrazione del tag. Riprova piÃ¹ tardi. Grazie</entry>
 <entry code="addtag_choisissez">Scegli un tag esistente</entry>
 <entry code="addtag_nouveau">o digitane uno nuovo</entry>
 <entry code="avis_titre">Avviso</entry>
@@ -498,8 +498,8 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="avis_avis">Avviso</entry>
 <entry code="avis_bt_envoyer">Invia</entry>
 <entry code="avis_bt_retour">Restituzione</entry>
-<entry code="avis_msg_validation">Grazie per il tuo avviso. Sarà visibile non appena convalidato.</entry>
-<entry code="avis_msg_pb">C'è stato un problema durante la registrazione del tuo avviso. Riprova più tardi. Grazie</entry>
+<entry code="avis_msg_validation">Grazie per il tuo avviso. SarÃ  visibile non appena convalidato.</entry>
+<entry code="avis_msg_pb">C'Ã¨ stato un problema durante la registrazione del tuo avviso. Riprova piÃ¹ tardi. Grazie</entry>
 <entry code="notice_bt_avis">avviso</entry>
 <entry code="notice_bt_tag">aggiungi un tag</entry>
 <entry code="notice_bt_panier">selezione</entry>
@@ -527,9 +527,9 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="acquisition_sug_rec">ricevuto</entry>
 <entry code="acquisition_sug_arc">archiviato</entry>
 <entry code="voir_contenu_detail">Dettagli</entry>
-<entry code="mdp_txt_intro_demande">Scrivi la tua mail così potremo inviarti le informazioni necessarie alla connessione.</entry>
+<entry code="mdp_txt_intro_demande">Scrivi la tua mail cosÃ¬ potremo inviarti le informazioni necessarie alla connessione.</entry>
 <entry code="mdp_bt_send">Invia</entry>
-<entry code="mdp_mail_body"><![CDATA[Bonjour,<br /><br />Pour faire suite à votre demande de réinitialisation de mot de passe à <b>!!biblioname!!</b>, veuillez trouver ci-dessous le lien qui vous permettra d'effectuer ce changement : <br /><br />!!lien_mdp!!<br /><br />La clé de connexion automatique sera effacée après ouverture du lien pour des raisons de sécurité.<br /><br /> - Pour rappel, votre identifiant est : !!login!!<br /><br />Si vous rencontrez des difficultés, adressez un mail à !!biblioemail!!.<br /><br />]]></entry>
+<entry code="mdp_mail_body"><![CDATA[Bonjour,<br /><br />Pour faire suite Ã  votre demande de rÃ©initialisation de mot de passe Ã  <b>!!biblioname!!</b>, veuillez trouver ci-dessous le lien qui vous permettra d'effectuer ce changement : <br /><br />!!lien_mdp!!<br /><br />La clÃ© de connexion automatique sera effacÃ©e aprÃ¨s ouverture du lien pour des raisons de sÃ©curitÃ©.<br /><br /> - Pour rappel, votre identifiant est : !!login!!<br /><br />Si vous rencontrez des difficultÃ©s, adressez un mail Ã  !!biblioemail!!.<br /><br />]]></entry>
 <entry code="mdp_mail_obj">Informazioni per la connessione a !!biblioname!!</entry>
 <entry code="mdp_sent_ok">Le informazioni sulla connessione sono state inviate a </entry>
 <entry code="mdp_no_email">Email errata o sconosciuta, per qualunque problema manda una mail a !!biblioemail!!.</entry>
@@ -539,7 +539,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="avis_doit_etre_abon">Per inviare la tua opinione devi essere connesso:</entry>
 <entry code="tag_doit_etre_abon">Per aggiungere un tag devi essere connesso:</entry>
 <entry code="command_phototeque_need_name">Il nome e il cognome sono obbligatori!</entry>
-<entry code="command_phototeque_need_phone">Il numero di telefono o l'email è obligatorio !</entry>
+<entry code="command_phototeque_need_phone">Il numero di telefono o l'email Ã¨ obligatorio !</entry>
 <entry code="command_phototeque_coord">Inserisci i tuoi dati</entry>
 <entry code="command_phototeque_name">Nome &amp; cognome</entry>
 <entry code="command_phototeque_phone">Telefono</entry>
@@ -549,10 +549,10 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="command_phototeque_send_demand">Invia la domanda</entry>
 <entry code="command_phototeque_cancel">Annulla</entry>
 <entry code="command_phototeque_send_by">Ordine passato a partire dal conto prestio: %s</entry>
-<entry code="command_phototeque_doc_id">Documento N° %s</entry>
+<entry code="command_phototeque_doc_id">Documento NÂ° %s</entry>
 <entry code="command_phototeque_command">Ordine del documento</entry>
 <entry code="command_phototeque_command_transmited">Domanda trasmessa!</entry>
-<entry code="command_phototeque_command_no_transmited">Durante l'invio si è verificato un errore!</entry>
+<entry code="command_phototeque_command_no_transmited">Durante l'invio si Ã¨ verificato un errore!</entry>
 <entry code="command_phototeque_command_command">Ordina</entry>
 <entry code="entete_show_empr">Preso in prestito da:</entry>
 <entry code="Public">Pubblico</entry>
@@ -622,8 +622,8 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="commence_par_query">Comincia per</entry>
 <entry code="finit_par_query">Finisce per</entry>
 <entry code="exactement_comme_query">Esattamente come</entry>
-<entry code="est_vide_query">È vuoto</entry>
-<entry code="pas_vide_query">Non è vuoto</entry>
+<entry code="est_vide_query">Ãˆ vuoto</entry>
+<entry code="pas_vide_query">Non Ã¨ vuoto</entry>
 <entry code="author_search">Autore</entry>
 <entry code="title_search">Titolo</entry>
 <entry code="global_search">Tutti i campi</entry>
@@ -659,7 +659,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="search_bull">Ricercare i bollettini</entry>
 <entry code="search_per_bull_num">per numero</entry>
 <entry code="search_per_bull_date">per data</entry>
-<entry code="error_message_invalid_date">La data scelta non è valida</entry>
+<entry code="error_message_invalid_date">La data scelta non Ã¨ valida</entry>
 <entry code="bull_no_found">Nessun bollettino trovato</entry>
 <entry code="search_bull_start">di</entry>
 <entry code="search_bull_end">a</entry>
@@ -673,10 +673,10 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="connecteurs_source_label">Fonti</entry>
 <entry code="connecteurs_history">Ricerche precedenti</entry>
 <entry code="connecteurs_no_source">Nessuna fonte selezionata!</entry>
-<entry code="connecteurs_search_multi">Puoi lanciare una ricerca basata su una o più parole &lt;a href='%s'&gt;fare una ricerca multicriterio&lt;/a&gt;</entry>
+<entry code="connecteurs_search_multi">Puoi lanciare una ricerca basata su una o piÃ¹ parole &lt;a href='%s'&gt;fare una ricerca multicriterio&lt;/a&gt;</entry>
 <entry code="subs_not_yet_subscriber">Non ti sei ancora iscritto?</entry>
-<entry code="subs_intro_services"><![CDATA[<h1><span>Iscriversi per più servizi</span></h1>Puoi creare un conto per accedere a servizi come gli abbonamenti alle novità o agli avvisi. <em>Iscrizione non necessaria per gli utenti registrati!</em>]]></entry>
-<entry code="subs_intro_explication"><![CDATA[<h1>Come creare il conto?</h1>Riempi il modulo qui sotto e invialo. Riceverai una mail di conferma dell'iscrizione.<br />L'iscrizione dovrà essere confermata entro le successive !!nb_h_valid!! ore. <em>I campi <b>in grassetto</b> sono obbligatori.</em><br /><br />]]></entry>
+<entry code="subs_intro_services"><![CDATA[<h1><span>Iscriversi per piÃ¹ servizi</span></h1>Puoi creare un conto per accedere a servizi come gli abbonamenti alle novitÃ  o agli avvisi. <em>Iscrizione non necessaria per gli utenti registrati!</em>]]></entry>
+<entry code="subs_intro_explication"><![CDATA[<h1>Come creare il conto?</h1>Riempi il modulo qui sotto e invialo. Riceverai una mail di conferma dell'iscrizione.<br />L'iscrizione dovrÃ  essere confermata entro le successive !!nb_h_valid!! ore. <em>I campi <b>in grassetto</b> sono obbligatori.</em><br /><br />]]></entry>
 <entry code="subs_titre_form">Identificarsi: </entry>
 <entry code="subs_f_nom">Nome: </entry>
 <entry code="subs_f_prenom">Cognome: </entry>
@@ -689,7 +689,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="subs_f_adr1">Indirizzo 1: </entry>
 <entry code="subs_f_adr2">Indirizzo 2: </entry>
 <entry code="subs_f_cp">Codice postale - </entry>
-<entry code="subs_f_ville">Città: </entry>
+<entry code="subs_f_ville">CittÃ : </entry>
 <entry code="subs_f_pays">Paese: </entry>
 <entry code="subs_f_tel1">Telefono: </entry>
 <entry code="subs_f_msg">Commenti: </entry>
@@ -697,18 +697,18 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="subs_bouton_form">Convalida</entry>
 <entry code="subs_form_obligatoire">Scelta incompleta, i campi in grassetto sono obbligatori!</entry>
 <entry code="subs_form_bad_passwords">Le password non concordano!</entry>
-<entry code="subs_pb_email"><![CDATA[<h3>Iscrizione impossibile!</h3><br /><span class='erreur'>Indirizzo email già utilizzato.</span><br /><br /><a href='./askmdp.php?demande=ok&email=!!email!!'>Chiedi il reinvio delle informazioni di connessione!</a><br />]]></entry>
-<entry code="subs_pb_login"><![CDATA[<h3>Iscrizione impossibile con questo UserID!</h3><br /><span class='erreur'>Lo UserID !!f_login!! è già in uso, te ne propongo un altro, inserisci ancora password e codice e convalida</span><br />]]></entry>
-<entry code="subs_ok_inscrit"><![CDATA[<h1>Iscrizione riuscita!</h1><br /><span class='erreur'>Una mail di conferma dell'iscrizione è stata inviata a !!f_email!!.</span><br />L'iscrizione deve essere verificata entro le successive !!nb_h_valid!! ore.<br />]]></entry>
-<entry code="subs_pb_mail"><![CDATA[<h3>Errore tecnico!</h3><br /><span class='erreur'>Richiesta d'iscrizione ricevuta, ma non è stato possibile inviare la mail di conferma a !!f_email!!! </span><br />Contattare l'amministratore.<br />]]></entry>
-<entry code="subs_pb_bdd"><![CDATA[<h3>Iscrizione impossibile !</h3><br /><span class='erreur'>Il sito incontra una difficoltà tecnica, riprovare più tardi.</span><br />]]></entry>
-<entry code="subs_pb_wrongcode"><![CDATA[<h3>Iscrizione impossibile!</h3><br /><span class='erreur'>Il codice di verifica scelto non è valido!</span><br />Ricomincia:<br /><br />]]></entry>
+<entry code="subs_pb_email"><![CDATA[<h3>Iscrizione impossibile!</h3><br /><span class='erreur'>Indirizzo email giÃ  utilizzato.</span><br /><br /><a href='./askmdp.php?demande=ok&email=!!email!!'>Chiedi il reinvio delle informazioni di connessione!</a><br />]]></entry>
+<entry code="subs_pb_login"><![CDATA[<h3>Iscrizione impossibile con questo UserID!</h3><br /><span class='erreur'>Lo UserID !!f_login!! Ã¨ giÃ  in uso, te ne propongo un altro, inserisci ancora password e codice e convalida</span><br />]]></entry>
+<entry code="subs_ok_inscrit"><![CDATA[<h1>Iscrizione riuscita!</h1><br /><span class='erreur'>Una mail di conferma dell'iscrizione Ã¨ stata inviata a !!f_email!!.</span><br />L'iscrizione deve essere verificata entro le successive !!nb_h_valid!! ore.<br />]]></entry>
+<entry code="subs_pb_mail"><![CDATA[<h3>Errore tecnico!</h3><br /><span class='erreur'>Richiesta d'iscrizione ricevuta, ma non Ã¨ stato possibile inviare la mail di conferma a !!f_email!!! </span><br />Contattare l'amministratore.<br />]]></entry>
+<entry code="subs_pb_bdd"><![CDATA[<h3>Iscrizione impossibile !</h3><br /><span class='erreur'>Il sito incontra una difficoltÃ  tecnica, riprovare piÃ¹ tardi.</span><br />]]></entry>
+<entry code="subs_pb_wrongcode"><![CDATA[<h3>Iscrizione impossibile!</h3><br /><span class='erreur'>Il codice di verifica scelto non Ã¨ valido!</span><br />Ricomincia:<br /><br />]]></entry>
 <entry code="subs_mail_obj">Iscrizione a !!biblio_name!!</entry>
-<entry code="subs_mail_corps"><![CDATA[Buongiorno,<br /><br />la tua richiesta d'iscrizione !!biblio_name!! è stata ricevuta. Adesso devi confermalra cliccando su questo link o incollando questo indirizzo nel browser:<br /><br />!!lien_validation!!<br /><br />]]></entry>
-<entry code="subs_pb_cle"><![CDATA[<h3>Impossibile convalidare l'iscrizione !</h3><br /><span class='erreur'>La chiave di validazione non è valida!</span><br />La richiesta di iscrizione è stata cancellata, la procedura deve essere ripetuta.<br /><br />]]></entry>
+<entry code="subs_mail_corps"><![CDATA[Buongiorno,<br /><br />la tua richiesta d'iscrizione !!biblio_name!! Ã¨ stata ricevuta. Adesso devi confermalra cliccando su questo link o incollando questo indirizzo nel browser:<br /><br />!!lien_validation!!<br /><br />]]></entry>
+<entry code="subs_pb_cle"><![CDATA[<h3>Impossibile convalidare l'iscrizione !</h3><br /><span class='erreur'>La chiave di validazione non Ã¨ valida!</span><br />La richiesta di iscrizione Ã¨ stata cancellata, la procedura deve essere ripetuta.<br /><br />]]></entry>
 <entry code="subs_ok_validation"><![CDATA[<h1>Iscrizione riuscita!</h1><br /><br />!!form_access_compte!!<br />]]></entry>
-<entry code="subs_pb_invalid"><![CDATA[<h3>Impossibile convalidare l'iscrizione!</h3><br /><span class='erreur'>Chiave di validazione scaduta!</span><br />La richiesta di iscrizione è stata cancellata, la procedura deve essere ripetuta.<br /><br />]]></entry>
-<entry code="subs_pb_inconnue"><![CDATA[<h3>Impossibile convalidare l'iscrizione!</h3><br /><span class='erreur'>Nessuna iscrizione è in attesa di convalida relativamente a questo UserID !!login!!!</span><br />]]></entry>
+<entry code="subs_pb_invalid"><![CDATA[<h3>Impossibile convalidare l'iscrizione!</h3><br /><span class='erreur'>Chiave di validazione scaduta!</span><br />La richiesta di iscrizione Ã¨ stata cancellata, la procedura deve essere ripetuta.<br /><br />]]></entry>
+<entry code="subs_pb_inconnue"><![CDATA[<h3>Impossibile convalidare l'iscrizione!</h3><br /><span class='erreur'>Nessuna iscrizione Ã¨ in attesa di convalida relativamente a questo UserID !!login!!!</span><br />]]></entry>
 <entry code="subs_bouton_acces_compte">Adesso puoi accedere al tuo conto.</entry>
 <entry code="dsi_ban_typeexport">Ricevi i record anche in questo formato: </entry>
 <entry code="dsi_ban_noexport">Nessuna esportazione</entry>
@@ -745,8 +745,8 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="tri_texte_croissant">crescente</entry>
 <entry code="tri_texte_decroissant">decrescente</entry>
 <entry code="tri_confirm_supp">Sei sicuro di voler cancellare questo ordinamento?</entry>
-<entry code="est_un_bulletin_de_du"><![CDATA[ <i>è una uscita di %s in data %s</i>]]></entry>
-<entry code="est_un_bulletin_de"><![CDATA[ <i>è una uscita di %s</i>]]></entry>
+<entry code="est_un_bulletin_de_du"><![CDATA[ <i>Ã¨ una uscita di %s in data %s</i>]]></entry>
+<entry code="est_un_bulletin_de"><![CDATA[ <i>Ã¨ una uscita di %s</i>]]></entry>
 <entry code="isbd_type_bul"><![CDATA[numero o uscita]]></entry>
 <entry code="acquisition_location">Localizzazione</entry>
 <entry code="all_location">Tutte le localizzazioni</entry>
@@ -806,19 +806,19 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="congres_aff_public_libelle">Congresso:</entry>
 <entry code="suggest_notice_opac">Fai un suggerimento di acquisto</entry>
 <entry code="congres_search">Congresso</entry>
-<entry code="collectivites_search">Collettività</entry>
+<entry code="collectivites_search">CollettivitÃ </entry>
 <entry code="personnes_physiques_search">Persone fisiche</entry>
-<entry code="collectivites_found">collettività trovata per la ricerca</entry>
+<entry code="collectivites_found">collettivitÃ  trovata per la ricerca</entry>
 <entry code="congres_found">congressi trovati per la ricerca</entry>
-<entry code="collectivite_see_title">Dettaglio collettività</entry>
-<entry code="doc_collectivite_title">Documenti disponibili provenienti da questa collettività</entry>
+<entry code="collectivite_see_title">Dettaglio collettivitÃ </entry>
+<entry code="doc_collectivite_title">Documenti disponibili provenienti da questa collettivitÃ </entry>
 <entry code="etat_collection_title">Titolo</entry>
 <entry code="bul_titre_perio">(Bollettino di %s)</entry>
 <entry code="date_creation_sort">Data di creazione</entry>
 <entry code="collstate_no_collstate">Nessuno stato di collezione</entry>
 <entry code="collstate_form_localisation">Posizione</entry>
 <entry code="collstate_form_collections">Collezione</entry>
-<entry code="collstate_form_emplacement">Località</entry>
+<entry code="collstate_form_emplacement">LocalitÃ </entry>
 <entry code="collstate_form_support">Supporto</entry>
 <entry code="collstate_form_origine">Origine</entry>
 <entry code="collstate_form_note">Nota</entry>
@@ -864,17 +864,17 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="list_lecture_share_with_users">Condividi con altri lettori</entry>
 <entry code="list_lecture_name_dont_filled">Nome lista obbligatorio!</entry>
 <entry code="list_lecture_partagee">Condivisa</entry>
-<entry code="list_lecture_no_mylist">Nessuna lista è stata creata</entry>
+<entry code="list_lecture_no_mylist">Nessuna lista Ã¨ stata creata</entry>
 <entry code="list_lecture_no_myshared">Non possoedi alcuna lista condivisa</entry>
 <entry code="list_lecture_view">Consultazione di %s</entry>
 <entry code="list_lecture_confirm_suppr">Confermi la cancellazione della lista di lettura?</entry>
-<entry code="list_lecture_no_publiclist">Al momento non è disponibile alcuna lista pubblica</entry>
+<entry code="list_lecture_no_publiclist">Al momento non Ã¨ disponibile alcuna lista pubblica</entry>
 <entry code="list_lecture_owner">Lista di %s</entry>
 <entry code="list_lecture_desabo">Disiscriversi dalla lista</entry>
 <entry code="list_lecture_readonly">Lista in sola lettura</entry>
 <entry code="list_lecture_confidential">Lista confidenziale</entry>
 <entry code="list_lecture_send_mail">Envia la richiesta</entry>
-<entry code="list_lecture_mail_inscription">Questa lista è confidenziale. Invia una richiesta di accesso. </entry>
+<entry code="list_lecture_mail_inscription">Questa lista Ã¨ confidenziale. Invia una richiesta di accesso. </entry>
 <entry code="list_lecture_demande_inscription">Precisa la richiesta (opzionale) :</entry>
 <entry code="list_lecture_cancel_mail">Annullare</entry>
 <entry code="list_lecture_objet_mail">Richiesta di accesso alla lista "%s"</entry>
@@ -886,16 +886,16 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="list_lecture_accept_demande">Accetta le domande di accesso segnate</entry>
 <entry code="list_lecture_refus_demande">Refiuta le domande di accesso segnate</entry>
 <entry code="list_lecture_inscrits">Lista iscritti:</entry>
-<entry code="list_lecture_no_user_inscrit">Nessun lettore è iscritto a questa lista</entry>
+<entry code="list_lecture_no_user_inscrit">Nessun lettore Ã¨ iscritto a questa lista</entry>
 <entry code="list_lecture_encours_demande">In corso di richiesta</entry>
 <entry code="list_lecture_accessible">Accesso disponibile</entry>
-<entry code="list_lecture_refus_mail">L\'inscritione alla liste "%s" è statorifiutato</entry>
+<entry code="list_lecture_refus_mail">L\'inscritione alla liste "%s" Ã¨ statorifiutato</entry>
 <entry code="list_lecture_refus_corps_mail"> %s hai rifiutato l\'accesso alla lista "%s".</entry>
 <entry code="list_lecture_activation_mail">Clicca qui per attivare o rifiutare l\'accesso alla lista</entry>
 <entry code="list_lecture_no_ck">Devi selezionare almeno una scheda!</entry>
 <entry code="list_lecture_confirm_delete">Confermi la soppressione di queste schede?</entry>
 <entry code="docnum">Documenti digitali</entry>
-<entry code="docnum_search_with">Documenti digitali : sì</entry>
+<entry code="docnum_search_with">Documenti digitali : sÃ¬</entry>
 <entry code="docnum_indexation_contenu">Contenuto documenti digitali</entry>
 <entry code="docnum_found">documenti digitali trovati dalla ricerca</entry>
 <entry code="docnum_found_allfield">documenti digitali o</entry>
@@ -906,8 +906,8 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_make_mul_sugg">Invia una proposta d\'acquisto multipla</entry>
 <entry code="empr_sugg_save_multi">Registra i suggerimenti</entry>
 <entry code="empr_sugg_src">Fonte</entry>
-<entry code="empr_sugg_qte">Quantità</entry>
-<entry code="empr_sugg_qte_error">Qualcuna delle quantità scelte non sono numeri</entry>
+<entry code="empr_sugg_qte">QuantitÃ </entry>
+<entry code="empr_sugg_qte_error">Qualcuna delle quantitÃ  scelte non sono numeri</entry>
 <entry code="empr_sugg_piece_jointe">Allegato</entry>
 <entry code="empr_sugg_datepubli">Data di pubblicazione</entry>
 <entry code="transform_caddie_to_multisugg">Trasfora la selezione in suggerimenti multipli</entry>
@@ -942,7 +942,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="demandes_add_rdv">Aggiungi appuntamento</entry>
 <entry code="demandes_action_sujet">Soggetto</entry> 
 <entry code="demandes_action_detail">Dettaglio</entry>
-<entry code="demandes_no_action">Nessua azione è associata a questa domanda.</entry>
+<entry code="demandes_no_action">Nessua azione Ã¨ associata a questa domanda.</entry>
 <entry code="demandes_question_form">Scegli la domanda</entry>
 <entry code="demandes_save_question">Registra la domanda</entry>
 <entry code="demandes_save_info">Registra l\'informazione</entry>
@@ -956,7 +956,7 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="demandes_notes_save">Registra la nota</entry>
 <entry code="demandes_note_reply_icon">Rispondi alla nota</entry>
 <entry code="demandes_sujet">Soggetto richiesta</entry>
-<entry code="demandes_save_msg">La richiesta è stata registrata con successo.</entry>
+<entry code="demandes_save_msg">La richiesta Ã¨ stata registrata con successo.</entry>
 <entry code="demandes_actions">Azioni associate</entry>
 <entry code="empr_no_allow_dema">Il tuo account non autorizza l\'accesso alle richieste di ricerca.</entry>
 <entry code="demandes_note_mail_reponse">ha risposto alla nota %s nell\'azione %s della richiesta %s</entry>
@@ -965,17 +965,17 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="demandes_note_mail_reponse_object">Risposta alla nota %s</entry>
 <entry code="list_lecture_intro_mail">Caro %s</entry>
 <entry code="redirection_mail_link">Clicca qui per entrare in PMB</entry>
-<entry code="list_lecture_objet_unsubscribe_mail">L\'iscrizione alla lista "%s" è stata annullata</entry>
+<entry code="list_lecture_objet_unsubscribe_mail">L\'iscrizione alla lista "%s" Ã¨ stata annullata</entry>
 <entry code="list_lecture_unsubscribe_mail">%s ha annullato l\'iscrizione alla lista "%s".</entry>
-<entry code="list_lecture_objet_confirm_mail">L\'inscrizione alla lista "%s" è stat autorizzata</entry>
+<entry code="list_lecture_objet_confirm_mail">L\'inscrizione alla lista "%s" Ã¨ stat autorizzata</entry>
 <entry code="list_lecture_confirm_mail">%s ti ha accordato l\'accesso alla lista "%s".</entry>
 <entry code="list_lecture_confirm_redir_mail">Clicca qui per accedere alla lista "%s".</entry>
-<entry code="list_lecture_already_requested">Hai già richiesto l\'accesso a questa lista. La richiesta è in elaborazione.</entry>
+<entry code="list_lecture_already_requested">Hai giÃ  richiesto l\'accesso a questa lista. La richiesta Ã¨ in elaborazione.</entry>
 <entry code="list_lecture_delete_subscriber">Confermi il ritiro dell\'accesso alla lista per questo utilizzatore?</entry>
 <entry code="accueil_bannette">La mia informazione personalizzata</entry>
 <entry code="empr_no_alerts">Non hai informazioni personalizzate registrate</entry>
-<entry code="empr_view_no_sugg">Nessun suggerimento è stato creato</entry>
-<entry code="empr_connexion_interdite">La connessione all\'opac ti è stata interdetta!</entry>
+<entry code="empr_view_no_sugg">Nessun suggerimento Ã¨ stato creato</entry>
+<entry code="empr_connexion_interdite">La connessione all\'opac ti Ã¨ stata interdetta!</entry>
 <entry code="export_cart_all">Esporta tutte le schede</entry>
 <entry code="export_cart_selected">Esporta le schede segnate</entry>
 <entry code="print_select_record">Stampa</entry>
@@ -993,8 +993,8 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="open_link_url_notice">Apri il collegamento </entry>
 <entry code="open_doc_num_notice">Apri il documento </entry>
 <entry code="info_docs_num_notice">Ci sono documenti digitali associati</entry>
-<entry code="aq_start_with_error">L'operatore 'comincia per' è stato già utilizzata davanti all'operatore booleano</entry>
-<entry code="cart_notice_expired">La scheda %s è scaduta.</entry>
+<entry code="aq_start_with_error">L'operatore 'comincia per' Ã¨ stato giÃ  utilizzata davanti all'operatore booleano</entry>
+<entry code="cart_notice_expired">La scheda %s Ã¨ scaduta.</entry>
 <entry code="confirm_resa">Confermi la prenotazione?</entry>
 <entry code="sugg_no_field_fill">Aggiungere una nuova </entry>
 <entry code="empr_tel2_separateur"> / </entry>
@@ -1010,27 +1010,27 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_ville_separateur"><![CDATA[<br />]]></entry>
 <entry code="empr_suppr_sugg">Supprimer</entry>
 <entry code="empr_confirm_suppr_sugg">Souhaitez-vous vraiment supprimer cette suggestion ?</entry>
-<entry code="empr_suppr_sugg_message">Votre suggestion a bien été supprimée</entry>
-<entry code="transform_caddie_notice_to_multisugg">Transformer les notices cochées en suggestion multiple</entry>
+<entry code="empr_suppr_sugg_message">Votre suggestion a bien Ã©tÃ© supprimÃ©e</entry>
+<entry code="transform_caddie_notice_to_multisugg">Transformer les notices cochÃ©es en suggestion multiple</entry>
 <entry code="demandes_no_subject">Il faut saisir au moins un sujet pour pouvoir enregistrer une action</entry>
 <entry code="demandes_action_by">par %s</entry>
-<entry code="demandes_add_answer">Ajouter une réponse</entry>
+<entry code="demandes_add_answer">Ajouter une rÃ©ponse</entry>
 <entry code="demandes_notice">Notice</entry>
 <entry code="demandes_see_notice">Voir la notice</entry>
 <entry code="demandes_actions_new">Nouveau</entry>
-<entry code="demandes_notes_question_form">Saisissez la réponse</entry>
-<entry code="explnum_bulletin">Documents numériques du bulletin</entry>
-<entry code="rechercher_in_serial">Rechercher dans ce périodique</entry>
-<entry code="result_to_phototeque">Visionner les documents numériques</entry>
-<entry code="see_docnum_bull">Voir les documents numériques associés aux bulletins</entry>
+<entry code="demandes_notes_question_form">Saisissez la rÃ©ponse</entry>
+<entry code="explnum_bulletin">Documents numÃ©riques du bulletin</entry>
+<entry code="rechercher_in_serial">Rechercher dans ce pÃ©riodique</entry>
+<entry code="result_to_phototeque">Visionner les documents numÃ©riques</entry>
+<entry code="see_docnum_bull">Voir les documents numÃ©riques associÃ©s aux bulletins</entry>
 <entry code="navigopac_aut">Classement par auteur</entry>
 <entry code="navigopac_ss_aut">Sans auteur</entry>
-<entry code="navigopac_aut_com_par">Auteurs commençant par</entry>
-<entry code="navigopac_aut_com_par_chiffre">Auteurs commençant par un chiffre</entry>
+<entry code="navigopac_aut_com_par">Auteurs commenÃ§ant par</entry>
+<entry code="navigopac_aut_com_par_chiffre">Auteurs commenÃ§ant par un chiffre</entry>
 <entry code="expl_header_codestat_libelle">Code statistique</entry>
-<entry code="expl_header_lender_libelle">Propriétaire</entry>
+<entry code="expl_header_lender_libelle">PropriÃ©taire</entry>
 <entry code="expl_header_statut_libelle">Statut</entry>
-<entry code="notice_tpl_list_default">Template par défaut</entry>
+<entry code="notice_tpl_list_default">Template par dÃ©faut</entry>
 <entry code="empr_bt_checkout">Emprunter</entry>
 <entry code="empr_bt_checkin">Rendre</entry>
 <entry code="empr_checkout_title">Enregistrer un emprunt</entry>
@@ -1039,71 +1039,71 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="empr_do_checkout_bt">Suivant</entry>
 <entry code="empr_do_checkin_bt">Suivant</entry>
 <entry code="empr_checkout_cb_empty">Veuillez saisir le code-barres du document</entry>
-<entry code="empr_do_checkin_ok">Le retour du document !!expl_cb!! est enregistré.</entry>
-<entry code="empr_do_checkin_nok">Le retour est refusé!</entry>
-<entry code="empr_do_checkout_ok">Le prêt du document !!expl_cb!! est enregistré. Pensez à le rendre avant le !!due_date!!.</entry>
-<entry code="empr_do_checkout_nok">Le prêt est refusé!</entry>
-<entry code="search_custom_notices">Champs personnalisés des notices</entry>
-<entry code="search_autopostage_multicritere">Catégories et sous-catégories</entry>
+<entry code="empr_do_checkin_ok">Le retour du document !!expl_cb!! est enregistrÃ©.</entry>
+<entry code="empr_do_checkin_nok">Le retour est refusÃ©!</entry>
+<entry code="empr_do_checkout_ok">Le prÃªt du document !!expl_cb!! est enregistrÃ©. Pensez Ã  le rendre avant le !!due_date!!.</entry>
+<entry code="empr_do_checkout_nok">Le prÃªt est refusÃ©!</entry>
+<entry code="search_custom_notices">Champs personnalisÃ©s des notices</entry>
+<entry code="search_autopostage_multicritere">CatÃ©gories et sous-catÃ©gories</entry>
 <entry code="codebarre_sort">Code-barres</entry>
 <entry code="coll_sort">Titre de la collection</entry>
 <entry code="subcoll_sort">Titre de la sous-collection</entry>
-<entry code="num_in_coll_sort">Numéro dans la collection</entry>
-<entry code="authority_query">Sélection d'autorité</entry>
+<entry code="num_in_coll_sort">NumÃ©ro dans la collection</entry>
+<entry code="authority_query">SÃ©lection d'autoritÃ©</entry>
 <entry code="etagere_suite">Voir la suite...</entry>
 <entry code="in_serial">in</entry>
 <entry code="date_parution">Date de parution</entry>
-<entry code="biblio_send_by">Cette bibliographie vous est envoyée par :</entry>
+<entry code="biblio_send_by">Cette bibliographie vous est envoyÃ©e par :</entry>
 <entry code="autre_auteur_sort">Autre(s) auteur(s)</entry>
 <entry code="auteur_secondaire_sort">Auteur(s) secondaire(s)</entry>
-<entry code="perio_title_sort">Titre de Périodique</entry>
-<entry code="bullnum_sort">Numéro du bulletin</entry>
+<entry code="perio_title_sort">Titre de PÃ©riodique</entry>
+<entry code="bullnum_sort">NumÃ©ro du bulletin</entry>
 <entry code="section_sort">Section</entry>
 <entry code="id_notice_sort">Identifiant de la notice</entry>
 <entry code="auteur_principal_sort">Auteur principal</entry>
-<entry code="source_enrichment_resume">Résumé</entry>
+<entry code="source_enrichment_resume">RÃ©sumÃ©</entry>
 <entry code="source_enrichment_sommaire">Sommaire</entry>
 <entry code="source_enrichment_books">Feuilletage</entry>
 <entry code="source_enrichment_bio">Biographie</entry>
-<entry code="source_enrichment_similarities">Similarités</entry>
+<entry code="source_enrichment_similarities">SimilaritÃ©s</entry>
 <entry code="expl_header_surloc_libelle">Sur localisation</entry>
 <entry code="common_tpl_motto_pmb"><![CDATA[pmb]]></entry>
 <entry code="sur_location_sort">Sur localisation</entry>
 <entry code="in_catalog">Dans le catalogue</entry>
-<entry code="in_affiliate_source">Dans les sources affiliées</entry>
-<entry code="affiliate_search_link">Rechercher dans les sources affiliées</entry>
-<entry code="affiliate_source_any_results">Aucun résultat dans les sources affiliées</entry>
+<entry code="in_affiliate_source">Dans les sources affiliÃ©es</entry>
+<entry code="affiliate_search_link">Rechercher dans les sources affiliÃ©es</entry>
+<entry code="affiliate_source_any_results">Aucun rÃ©sultat dans les sources affiliÃ©es</entry>
 <entry code="affiliate_search_external_authority_results">document(s) correspondant(s) dans </entry>
 <entry code="affiliate_search_external_results_and"> et </entry>
-<entry code="collection_state_search_loc">Etat des collections localisés</entry>
-<entry code="collection_state_search_surloc">Etat des collections sur-localisés</entry>
-<entry code="serial_name_sort">Titre de Périodique</entry>
+<entry code="collection_state_search_loc">Etat des collections localisÃ©s</entry>
+<entry code="collection_state_search_surloc">Etat des collections sur-localisÃ©s</entry>
+<entry code="serial_name_sort">Titre de PÃ©riodique</entry>
 <entry code="dsi_bannette_gerer_periodicite">Periodicity (days)</entry>
 <entry code="format_date_short">%m/%Y</entry>
 <entry code="format_date_short_input">%d/%d</entry>
-<entry code="a2z_title">Naviguez dans nos périodiques...</entry>
+<entry code="a2z_title">Naviguez dans nos pÃ©riodiques...</entry>
 <entry code="a2z_perio_list_bulletins">Rechercher les bulletins</entry>
 <entry code="bulletin_retard_title">Bulletins en retard</entry>
 <entry code="bulletin_retard_surloc">Sur localisation</entry>
 <entry code="bulletin_retard_location">Localisation</entry>
 <entry code="bulletin_retard_date_parution">Date de parution</entry>
-<entry code="bulletin_retard_libelle_numero">Numéro</entry>
+<entry code="bulletin_retard_libelle_numero">NumÃ©ro</entry>
 <entry code="bulletin_retard_comment">Commentaire</entry>
-<entry code="a2z_onglet">Périodiques</entry>
+<entry code="a2z_onglet">PÃ©riodiques</entry>
 <entry code="loan_extend_false">test prolongation faux</entry>
 <entry code="a2z_abt_actif_filter">Abonnement actif</entry>
-<entry code="mention_edition_search">Mention d'édition</entry>
+<entry code="mention_edition_search">Mention d'Ã©dition</entry>
 <entry code="coll_issn_search">ISSN de la Collection</entry>
-<entry code="publisher_place_search">Lieu d'édition</entry>
-<entry code="isbn_parent_query">ISBN, ISSN ou EAN de la notice mère</entry>
-<entry code="title_parent_search">Titre de la notice mère</entry>
-<entry code="search_openurl">Requête OpenURL</entry>
+<entry code="publisher_place_search">Lieu d'Ã©dition</entry>
+<entry code="isbn_parent_query">ISBN, ISSN ou EAN de la notice mÃ¨re</entry>
+<entry code="title_parent_search">Titre de la notice mÃ¨re</entry>
+<entry code="search_openurl">RequÃªte OpenURL</entry>
 <entry code="npages_search">Importance</entry>
 <entry code="external_id_search">Identifiant Externe</entry>
-<entry code="parent_external_id_search">Identifiant Externe de la notice mère</entry>
-<entry code="serial_title_search">Titre du périodique</entry>
-<entry code="avis_validation_en_cours">Votre avis est bien enregistré. Il est en attente de validation.</entry>
-<entry code="opac_keywords">OPAC, web, library, opensource, catalog, catalogue, bibliothèque, médiathèque, pmb, phpmybibli</entry>
+<entry code="parent_external_id_search">Identifiant Externe de la notice mÃ¨re</entry>
+<entry code="serial_title_search">Titre du pÃ©riodique</entry>
+<entry code="avis_validation_en_cours">Votre avis est bien enregistrÃ©. Il est en attente de validation.</entry>
+<entry code="opac_keywords">OPAC, web, library, opensource, catalog, catalogue, bibliothÃ¨que, mÃ©diathÃ¨que, pmb, phpmybibli</entry>
 <entry code="collstate_form_surloc">Sur localisation</entry>
 <entry code="subs_f_loc">Localisation : </entry>
 <entry code="label_title_facette">Liste des facettes</entry>
@@ -1112,49 +1112,49 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="234">Auteur</entry>
 <entry code="235">Recherche notice</entry>
 <entry code="237">Titre propre</entry>
-<entry code="238">Titre propre d'un auteur différent</entry>
-<entry code="239">Titre parallèle</entry>
-<entry code="240">Complément du titre</entry>
+<entry code="238">Titre propre d'un auteur diffÃ©rent</entry>
+<entry code="239">Titre parallÃ¨le</entry>
+<entry code="240">ComplÃ©ment du titre</entry>
 <entry code="241">Partie de</entry>
 <entry code="242">No. de partie</entry>
-<entry code="243">Responsabilité</entry>
+<entry code="243">ResponsabilitÃ©</entry>
 <entry code="244">Auteur principal</entry>
 <entry code="245">Fonction</entry>
 <entry code="246">Autre(s) auteur(s)</entry>
 <entry code="247">Auteur(s) secondaire(s)</entry>
-<entry code="248">Ce document a d'autres auteurs qui ne sont pas indiqués dans cette notice</entry>
+<entry code="248">Ce document a d'autres auteurs qui ne sont pas indiquÃ©s dans cette notice</entry>
 <entry code="249">Editeurs, collection</entry>
 <entry code="250">Collection</entry>
 <entry code="251">Sous collection</entry>
-<entry code="252">Année</entry>
+<entry code="252">AnnÃ©e</entry>
 <entry code="253">No. dans la collection</entry>
-<entry code="254">Autre éditeur</entry>
+<entry code="254">Autre Ã©diteur</entry>
 <entry code="facette_active">Votre recherche:</entry>
 <entry code="facette_list">Affiner</entry>
-<entry code="lib_categ">Libellé catégorie</entry>
-<entry code="134">Catégories</entry>
-<entry code="intit_sub_col">Libellé sous collection</entry>
-<entry code="lib_serie">Libellé série</entry>
-<entry code="lib_coll">Libellé collection</entry>
+<entry code="lib_categ">LibellÃ© catÃ©gorie</entry>
+<entry code="134">CatÃ©gories</entry>
+<entry code="intit_sub_col">LibellÃ© sous collection</entry>
+<entry code="lib_serie">LibellÃ© sÃ©rie</entry>
+<entry code="lib_coll">LibellÃ© collection</entry>
 <entry code="136">Collections</entry>
-<entry code="mention_edition">Mention d'édition</entry>
-<entry code="259">Importance matérielle (nombre de pages, d'éléments...)</entry>
-<entry code="260">Autres caractéristiques matérielles (ill., ...)</entry>
-<entry code="262">Matériel d'accompagnement</entry>
-<entry code="265">Note générale</entry>
+<entry code="mention_edition">Mention d'Ã©dition</entry>
+<entry code="259">Importance matÃ©rielle (nombre de pages, d'Ã©lÃ©ments...)</entry>
+<entry code="260">Autres caractÃ©ristiques matÃ©rielles (ill., ...)</entry>
+<entry code="262">MatÃ©riel d'accompagnement</entry>
+<entry code="265">Note gÃ©nÃ©rale</entry>
 <entry code="266">Note de contenu</entry>
-<entry code="267">Résumé</entry>
-<entry code="275">URL associée</entry>
-<entry code="276">Format électronique de la ressource</entry>
-<entry code="324">Mots-clés</entry>
+<entry code="267">RÃ©sumÃ©</entry>
+<entry code="275">URL associÃ©e</entry>
+<entry code="276">Format Ã©lectronique de la ressource</entry>
+<entry code="324">Mots-clÃ©s</entry>
 <entry code="137">Sous-collections</entry>
 <entry code="print_vignette">Imprimer la vignette/couverture</entry>
 <entry code="opac_titre_champ_nb_prolongation">Prolongation</entry>
 <entry code="show_cart_empty_title">Vider le panier</entry>
-<entry code="show_cart_del_checked_title">Vider du panier les notices cochées</entry>
+<entry code="show_cart_del_checked_title">Vider du panier les notices cochÃ©es</entry>
 <entry code="show_cart_print_title">Imprimer...</entry>
 <entry code="list_lecture_transform_caddie_title">Transformer le panier en liste de lecture</entry>
-<entry code="list_lecture_transform_checked_title">Transformer les notices cochées en liste de lecture</entry>
+<entry code="list_lecture_transform_checked_title">Transformer les notices cochÃ©es en liste de lecture</entry>
 <entry code="list_lecture_cart_checked_all_title">Tout cocher</entry>
 <entry code="transform_caddie_to_multisugg_title">Transformer le panier en suggestion multiple</entry>
 <entry code="transform_list_to_multisugg_title">Transformer la liste en suggestion multiple</entry>
@@ -1164,134 +1164,134 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="serialcirc_list_abo">Listes des abonnements</entry>
 <entry code="serialcirc_list_asked_abo">Abonnements sur demande</entry>
 <entry code="serialcirc_pointer">Pointer</entry>
-<entry code="serialcirc_add_resa">Solliciter une réservation</entry>
+<entry code="serialcirc_add_resa">Solliciter une rÃ©servation</entry>
 <entry code="serialcirc_ask_copy">Demander une reproduction</entry>
-<entry code="serialcirc_serial_name">Nom du périodique</entry>
+<entry code="serialcirc_serial_name">Nom du pÃ©riodique</entry>
 <entry code="serialcirc_circ_mode">Mode de Circulation</entry>
-<entry code="serialcirc_start_date">Date de départ</entry>
+<entry code="serialcirc_start_date">Date de dÃ©part</entry>
 <entry code="serialcirc_cb">Code-barres</entry>
 <entry code="serialcirc_nb">Rang</entry>
 <entry code="serialcirc_actions">Action(s) possible(s)</entry>
-<entry code="serialcirc_ret_asked">Renvoi demandé</entry>
-<entry code="serialcirc_trans_asked">Transmission demandée</entry>
-<entry code="serialcirc_trans_doc_asked">Transmission demandée par le centre le doc</entry>
+<entry code="serialcirc_ret_asked">Renvoi demandÃ©</entry>
+<entry code="serialcirc_trans_asked">Transmission demandÃ©e</entry>
+<entry code="serialcirc_trans_doc_asked">Transmission demandÃ©e par le centre le doc</entry>
 <entry code="serialcirc_report_late">Signaler un retard</entry>
-<entry code="serialcirc_late_reported">Retard signalé</entry>
+<entry code="serialcirc_late_reported">Retard signalÃ©</entry>
 <entry code="serialcirc_ask_transmission">Demander la transmission</entry>
 <entry code="serialcirc_asking_transmission">Demande de transmission</entry>
-<entry code="serialcirc_transmission_asked">Demande de transmission envoyée</entry>
+<entry code="serialcirc_transmission_asked">Demande de transmission envoyÃ©e</entry>
 <entry code="serialcirc_subscribe_list">Demander avant le %s</entry>
-<entry code="serialcirc_unsubscribe_checked">Demander le désabonnement des périodiques cochés</entry>
+<entry code="serialcirc_unsubscribe_checked">Demander le dÃ©sabonnement des pÃ©riodiques cochÃ©s</entry>
 <entry code="serialcirc_virtual_mode_0"></entry>
 <entry code="serialcirc_virtual_mode_1">Sur demande</entry>
 <entry code="serialcirc_checkpoint">Pointer un exemplaire</entry>
 <entry code="serialcirc_codebarre">Code-barres de l'exemplaire</entry>
 <entry code="serialcirc_point_expl">Pointer l'exemplaire</entry>
 <entry code="serialcirc_point_wrong_expl">Code-barres inconnu</entry>
-<entry code="serialcirc_point_back_to_list">Retour à la liste</entry>
-<entry code="serialcirc_expl_pointed">merci d'avoir pointé le document!</entry>
+<entry code="serialcirc_point_back_to_list">Retour Ã  la liste</entry>
+<entry code="serialcirc_expl_pointed">merci d'avoir pointÃ© le document!</entry>
 <entry code="serialcirc_point_expl_not_in_list">Cet exemplaire ne fait pas partie de la circulation!</entry>
 <entry code="sql_error">Erreur SQL</entry>
 <entry code="serialcirc_transmission_accepted">Demande de transmission prise en compte</entry>
-<entry code="serialcirc_no_expl_in_circulation">Pas de nouveau numéro</entry>
-<entry code="serialcirc_hold_expl">Demander une réservation pour cet exemplaire</entry>
+<entry code="serialcirc_no_expl_in_circulation">Pas de nouveau numÃ©ro</entry>
+<entry code="serialcirc_hold_expl">Demander une rÃ©servation pour cet exemplaire</entry>
 <entry code="serialcirc_expl_not_in_circ">Cet exemplaire ne fait pas partie d'un abonnement</entry>
-<entry code="serialcirc_holding_not_allowed">Vous ne pouvez pas réserver ce document</entry>
-<entry code="serialcirc_holded">La demande de réservation est prise en compte</entry>
+<entry code="serialcirc_holding_not_allowed">Vous ne pouvez pas rÃ©server ce document</entry>
+<entry code="serialcirc_holded">La demande de rÃ©servation est prise en compte</entry>
 <entry code="serialcirc_report_late_mail">Circulation tardive...</entry>
-<entry code="serialcirc_hold_mail">Demande de réservation</entry>
+<entry code="serialcirc_hold_mail">Demande de rÃ©servation</entry>
 <entry code="serialcirc_ask_comment">Ajouter un commentaire :</entry>
 <entry code="serialcirc_ask_submit_button">Envoyer votre demande</entry>
-<entry code="serialcirc_ask_analysis">Un(Des) dépouillement(s) spécifique(s) : </entry>
+<entry code="serialcirc_ask_analysis">Un(Des) dÃ©pouillement(s) spÃ©cifique(s) : </entry>
 <entry code="serialcirc_ask_copy_title">Demande de reproduction pour :</entry>
 <entry code="serialcirc_copy_statut_0">En Attente</entry>
-<entry code="serialcirc_copy_statut_1">Acceptée</entry>
-<entry code="serialcirc_copy_statut_2">Refusée</entry>
+<entry code="serialcirc_copy_statut_1">AcceptÃ©e</entry>
+<entry code="serialcirc_copy_statut_2">RefusÃ©e</entry>
 <entry code="serialcirc_cant_point_expl">Vous ne pouvez pas pointer cet exemplaire</entry>
-<entry code="serialcirc_cant_copy_expl">La demande de copie n'est pas autorisée pour cet exemplaire</entry>
-<entry code="serialcirc_cant_point_expl_twice">Vous avez déjà pointé cet exemplaire!</entry>
-<entry code="serialcirc_ask_subscribtion">Demander l'abonnement à la liste de circulation</entry>
+<entry code="serialcirc_cant_copy_expl">La demande de copie n'est pas autorisÃ©e pour cet exemplaire</entry>
+<entry code="serialcirc_cant_point_expl_twice">Vous avez dÃ©jÃ  pointÃ© cet exemplaire!</entry>
+<entry code="serialcirc_ask_subscribtion">Demander l'abonnement Ã  la liste de circulation</entry>
 <entry code="serialcirc_ask_type">Type de demande</entry>
 <entry code="serialcirc_ask_type_0">Inscription</entry>
-<entry code="serialcirc_ask_type_1">Désinscription</entry>
+<entry code="serialcirc_ask_type_1">DÃ©sinscription</entry>
 <entry code="serialcirc_ask_statut">Statut</entry>
 <entry code="serialcirc_ask_statut_0">En Attente</entry>
-<entry code="serialcirc_ask_statut_1">Acceptée</entry>
-<entry code="serialcirc_ask_statut_2">Refusée</entry>
+<entry code="serialcirc_ask_statut_1">AcceptÃ©e</entry>
+<entry code="serialcirc_ask_statut_2">RefusÃ©e</entry>
 <entry code="serialcirc_ask_msg">Commentaire</entry>
 <entry code="serialcirc_ask_date">Date</entry>
 <entry code="serialcirc_ask_menu">Suivre les demandes d'inscription</entry>
-<entry code="serialcirc_ret_accepted">Demande de retour acceptée</entry>
+<entry code="serialcirc_ret_accepted">Demande de retour acceptÃ©e</entry>
 <entry code="serialcirc_expected_date">Date attendue</entry>
-<entry code="filing_date">Date de dépôt</entry>
+<entry code="filing_date">Date de dÃ©pÃ´t</entry>
 <entry code="return_date">Date de retour</entry>
-<entry code="simili_search">Peut-être aimerez-vous</entry>
+<entry code="simili_search">Peut-Ãªtre aimerez-vous</entry>
 <entry code='serialcirc_ask_copy_msg'>Message</entry>
-<entry code='serialcirc_ask_copy_analysis'>	Dépouillement(s) Spécifique(s)</entry>
+<entry code='serialcirc_ask_copy_analysis'>	DÃ©pouillement(s) SpÃ©cifique(s)</entry>
 <entry code='serialcirc_ask_copy_issue'>Bulletin</entry>
 <entry code='serialcirc_ask_copy_date'>Date</entry>
 <entry code='serialcirc_transmission_date'>Date de transmission</entry>
 <entry code="source_enrichment_extract_audio">Extraits Sonores</entry>
 <entry code="source_enrichment_critique">Critiques</entry>
 <entry code="source_enrichment_citation">Citations</entry>
-<entry code="date_publication_or_annee_edition">Date de publication ou année d'édition</entry>
-<entry code="mail_obj_demande_added">Nouvelle demande ajoutée dans l'OPAC</entry>
-<entry code="mail_content_demande_theme">Thème de la demande :</entry>
+<entry code="date_publication_or_annee_edition">Date de publication ou annÃ©e d'Ã©dition</entry>
+<entry code="mail_obj_demande_added">Nouvelle demande ajoutÃ©e dans l'OPAC</entry>
+<entry code="mail_content_demande_theme">ThÃ¨me de la demande :</entry>
 <entry code="mail_content_demande_type">Type de la demande :</entry>
-<entry code="mail_content_demande_date_fin">Date d'échéance :</entry>
-<entry code="empr_group_late">Prêts en retard du groupe %s:</entry>
-<entry code="empr_group_loans">Prêts en cours du groupe %s:</entry>
-<entry code="dsi_archive_last">Dernière diffusion</entry>
+<entry code="mail_content_demande_date_fin">Date d'Ã©chÃ©ance :</entry>
+<entry code="empr_group_late">PrÃªts en retard du groupe %s:</entry>
+<entry code="empr_group_loans">PrÃªts en cours du groupe %s:</entry>
+<entry code="dsi_archive_last">DerniÃ¨re diffusion</entry>
 <entry code="dsi_archive_other">Diffusion du %s</entry>
-<entry code='forbidden_docnum'>Vous ne pouvez pas accéder à ce document.</entry>
+<entry code='forbidden_docnum'>Vous ne pouvez pas accÃ©der Ã  ce document.</entry>
 <entry code="need_auth">Veuillez vous identifier</entry>
 <entry code="auth_failed">Login ou mot de passe incorrect</entry>
 <entry code="recherche_type_auteur">Type d'auteur</entry>
-<entry code="indexint_select">Sélection d'une indexation décimale</entry>
+<entry code="indexint_select">SÃ©lection d'une indexation dÃ©cimale</entry>
 <entry code="indexint_search_index">Recherche sur l'index</entry>
 <entry code="indexint_search_comment">Recherche sur le commentaire</entry>
-<entry code="download">Télécharger</entry>
-<entry code="aut_link">Autorités liées</entry>
-<entry code="term_search_info">Saisissez les termes à rechercher dans la case ci-dessus</entry>
-<entry code="expl_voisin_search">Dans le même rayon</entry>
+<entry code="download">TÃ©lÃ©charger</entry>
+<entry code="aut_link">AutoritÃ©s liÃ©es</entry>
+<entry code="term_search_info">Saisissez les termes Ã  rechercher dans la case ci-dessus</entry>
+<entry code="expl_voisin_search">Dans le mÃªme rayon</entry>
 <entry code="cms_module_common_datasource_desc_id_article">Identifiant de l'article</entry>
 <entry code="cms_module_common_datasource_desc_id_section">Identifiant de la rubrique</entry>
 <entry code="cms_module_common_datasource_desc_title">Titre</entry>
 <entry code="cms_module_common_datasource_desc_parent">Informations de la rubrique parente</entry>
 <entry code="cms_module_common_datasource_desc_num_parent">Indentifiant de la rubrique parente</entry>
-<entry code="cms_module_common_datasource_desc_resume">Résumé</entry>
+<entry code="cms_module_common_datasource_desc_resume">RÃ©sumÃ©</entry>
 <entry code="cms_module_common_datasource_desc_content">Contenu de l'article</entry>
 <entry code="cms_module_common_datasource_desc_logo">Logos</entry>
 <entry code="cms_module_common_datasource_desc_small_vign">16x16</entry>
 <entry code="cms_module_common_datasource_desc_vign">100x100</entry>
-<entry code="cms_module_common_datasource_desc_large">Taille réelle</entry>
+<entry code="cms_module_common_datasource_desc_large">Taille rÃ©elle</entry>
 <entry code="cms_module_common_datasource_desc_publication_state">Statut de publication</entry>
 <entry code="cms_module_common_datasource_desc_start_date">Date de publication</entry>
 <entry code="cms_module_common_datasource_desc_end_date">Date de fin de publication</entry>
-<entry code="cms_module_common_datasource_desc_descriptors">Tableau des identifiants des catégories</entry>
+<entry code="cms_module_common_datasource_desc_descriptors">Tableau des identifiants des catÃ©gories</entry>
 <entry code="cms_module_common_datasource_desc_type_article">Type de contenu de l'article</entry>
 <entry code="cms_module_common_datasource_desc_type_section">Type de contenu de la rubrique</entry>
-<entry code="cms_module_common_datasource_desc_fields_type_article">Tableau associatif(la clé correspond au libellé informatique du champ) de tableaux des champs associé au type de contenu de l'article</entry>
-<entry code="cms_module_common_datasource_desc_fields_type_section">Tableau associatif(la clé correspond au libellé informatique du champ) de tableaux des champs associé au type de contenu de la rubrique</entry>
+<entry code="cms_module_common_datasource_desc_fields_type_article">Tableau associatif(la clÃ© correspond au libellÃ© informatique du champ) de tableaux des champs associÃ© au type de contenu de l'article</entry>
+<entry code="cms_module_common_datasource_desc_fields_type_section">Tableau associatif(la clÃ© correspond au libellÃ© informatique du champ) de tableaux des champs associÃ© au type de contenu de la rubrique</entry>
 <entry code="cms_module_common_datasource_desc_fields_type_id">Identifiant du champ</entry>
-<entry code="cms_module_common_datasource_desc_fields_type_label">Libellé du champ</entry>
-<entry code="cms_module_common_datasource_desc_fields_type_values">Tableau de tableaux des valeurs (pour chaque valeur un tableau de la valeur brute et formatée)</entry>
-<entry code="cms_module_common_datasource_desc_fields_type_values_format_value">Valeur formatée du champ</entry>
+<entry code="cms_module_common_datasource_desc_fields_type_label">LibellÃ© du champ</entry>
+<entry code="cms_module_common_datasource_desc_fields_type_values">Tableau de tableaux des valeurs (pour chaque valeur un tableau de la valeur brute et formatÃ©e)</entry>
+<entry code="cms_module_common_datasource_desc_fields_type_values_format_value">Valeur formatÃ©e du champ</entry>
 <entry code="cms_module_common_datasource_desc_fields_type_values_value">Valeur brute du champ</entry>
-<entry code="cms_module_common_datasource_desc_create_date">Date de création</entry>	
+<entry code="cms_module_common_datasource_desc_create_date">Date de crÃ©ation</entry>	
 <entry code="cms_module_common_datasource_main_fields">Champs principaux</entry>	
 <entry code="cms_module_common_datasource_types">Types de contenus</entry>
 <entry code="cms_module_common_datasource_desc_types">Valeur de fields_type en fonction du type de contenu</entry>
 <entry code="cms_editorial_desc_children">Tableau des sous-rubriques</entry>
 <entry code="cms_editorial_desc_articles">Tableau des articles de la rubrique</entry>
-<entry code="index_title">Titre indexé</entry>
+<entry code="index_title">Titre indexÃ©</entry>
 <entry code="parperso_nodate">Aucune date</entry>
-<entry code="editorial_content_type_fieldslist_article_generic_label">Champs communs à tous les articles</entry>
-<entry code="editorial_content_type_fieldslist_section_generic_label">Champs communs à toutes les rubriques</entry>
-<entry code="ordinal_1">1°</entry>
-<entry code="ordinal_2">2°</entry>
-<entry code="ordinal_3">3°</entry>
-<entry code="ordinal_4">4°</entry>
+<entry code="editorial_content_type_fieldslist_article_generic_label">Champs communs Ã  tous les articles</entry>
+<entry code="editorial_content_type_fieldslist_section_generic_label">Champs communs Ã  toutes les rubriques</entry>
+<entry code="ordinal_1">1Â°</entry>
+<entry code="ordinal_2">2Â°</entry>
+<entry code="ordinal_3">3Â°</entry>
+<entry code="ordinal_4">4Â°</entry>
 <entry code="ordinal_s_1">primo</entry>
 <entry code="ordinal_s_2">secondo</entry>
 <entry code="ordinal_s_3">terzo</entry>
@@ -1301,12 +1301,12 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="print_export_form_title">Exporter</entry>
 <entry code="print_export_form_print_onglet">Imprimer</entry>
 <entry code="print_export_form_export_onglet">Exporter</entry>
-<entry code="print_export_form_pdf_onglet">Documents numériques</entry>
-<entry code="print_output_docnum">Documents numériques</entry>
+<entry code="print_export_form_pdf_onglet">Documents numÃ©riques</entry>
+<entry code="print_output_docnum">Documents numÃ©riques</entry>
 <entry code="print_output_docnum_list">Liste des documents</entry>
 <entry code="print_output_docnum_list_no_file">Pas de document.</entry>
 <entry code="list_docnum_checked_all">Tout cocher</entry>
-<entry code="list_docnum_unchecked_all">Tout décocher</entry>
+<entry code="list_docnum_unchecked_all">Tout dÃ©cocher</entry>
 <entry code="pagination_start">Pagination</entry>
 <entry code="sujets_start">Sujets</entry>
 <entry code="entreprise_start">Entreprise</entry>
@@ -1315,152 +1315,152 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="description_start">Description</entry>
 <entry code="cote_start">Cote :</entry>
 <entry code="tnvol_start">Partie :</entry>
-<entry code="date_update_sort">Date de mise à jour</entry>
+<entry code="date_update_sort">Date de mise Ã  jour</entry>
 <entry code="subs_f_web">Site web</entry>
-<entry code="facette_uniformtitle_aut_titre_uniforme_form_tonalite">Tonalité (pour la musique)</entry>
+<entry code="facette_uniformtitle_aut_titre_uniforme_form_tonalite">TonalitÃ© (pour la musique)</entry>
 <entry code="facette_uniformtitle_catal_titre_uniforme_titre_section">Titre de section ou de partie</entry>
 <entry code="facette_uniformtitle_catal_titre_uniforme_sous_vedette">Sous-vedette de forme</entry>
 <entry code="facette_uniformtitle_catal_titre_uniforme_version">Version (ou date d'une version)</entry>
 <entry code="facette_uniformtitle_catal_titre_uniforme_mention">Mention d'arrangement (pour la musique)</entry>
 <entry code="facette_author_713">Dates</entry>
 <entry code="isbd_editeur">Editeur</entry>
-<entry code="isbd_indexint">Indexation décimale</entry>
+<entry code="isbd_indexint">Indexation dÃ©cimale</entry>
 <entry code="isbd_collection">Collection</entry>
-<entry code="isbd_serie">Série</entry>
+<entry code="isbd_serie">SÃ©rie</entry>
 <entry code="isbd_subcollection">Sous-collection</entry>
-<entry code="isbd_categories">Catégorie</entry>
+<entry code="isbd_categories">CatÃ©gorie</entry>
 <entry code="isbd_titre_uniforme">Titre uniforme</entry>
 <entry code="isbd_author">Auteur</entry>
 <entry code="dans_start">Dans</entry>
 <entry code="facette_suggest">Suggestions</entry>
 <entry code="facette_filtre">Filtrer</entry>
-<entry code="abo_revue_ligne_start">Abonnement à la revue en ligne</entry>
+<entry code="abo_revue_ligne_start">Abonnement Ã  la revue en ligne</entry>
 <entry code="old_title_start">Ancien(s) titre(s)</entry>
 <entry code="new_title_start">Nouveau(x) titre(s)</entry>
-<entry code="periodicite_start">Périodicité</entry>
+<entry code="periodicite_start">PÃ©riodicitÃ©</entry>
 <entry code="commentaires_start">Commentaires</entry>
-<entry code="empr_bt_show_resa_planning">Afficher le planning des réservations</entry>
+<entry code="empr_bt_show_resa_planning">Afficher le planning des rÃ©servations</entry>
 <entry code='empr_tpl_date_fin_blocage'>Date de fin de blocage</entry>
-<entry code="empr_tpl_blocage_pret">Le prêt est bloqué jusqu'au !!date_fin_blocage!!</entry>
+<entry code="empr_tpl_blocage_pret">Le prÃªt est bloquÃ© jusqu'au !!date_fin_blocage!!</entry>
 <entry code="atoz_rechercher">Rechercher</entry>
 <entry code="autolevel1_search">Recherche</entry>
 <entry code="cms_module_common_datasource_desc_logo_exists">Existence du logo</entry>
-<entry code="empr_sugg_already_exist">Vous avez déjà effectué cette suggestion</entry>
-<entry code="avis_detail_aucun_auth_ajt">Aucun avis, veuillez vous identifier pour ajouter le vôtre !</entry>
-<entry code="avis_detail_nb_auth_ajt">!!nb_avis!! avis, veuillez vous identifier pour ajouter le vôtre !</entry>
-<entry code="subs_pb_empr_categ">Aucune catégorie de lecteur n'a été définie pour les inscriptions via l'OPAC.</entry>
-<entry code="subs_pb_empr_codestat">Aucun code statistique de lecteur n'a été défini pour les inscriptions via l'OPAC.</entry>
+<entry code="empr_sugg_already_exist">Vous avez dÃ©jÃ  effectuÃ© cette suggestion</entry>
+<entry code="avis_detail_aucun_auth_ajt">Aucun avis, veuillez vous identifier pour ajouter le vÃ´tre !</entry>
+<entry code="avis_detail_nb_auth_ajt">!!nb_avis!! avis, veuillez vous identifier pour ajouter le vÃ´tre !</entry>
+<entry code="subs_pb_empr_categ">Aucune catÃ©gorie de lecteur n'a Ã©tÃ© dÃ©finie pour les inscriptions via l'OPAC.</entry>
+<entry code="subs_pb_empr_codestat">Aucun code statistique de lecteur n'a Ã©tÃ© dÃ©fini pour les inscriptions via l'OPAC.</entry>
 <entry code="subs_alert_user_mail_obj">Inscription via l'OPAC de !!empr_first_name!! !!empr_name!!</entry>
-<entry code="subs_alert_user_mail_corps"><![CDATA[Bonjour,<br /><br />Inscription d'un nouveau lecteur via l'OPAC à !!biblio_name!! : !!empr_first_name!! !!empr_name!!.<br /><br />!!empr_link!!<br /><br />]]></entry>
-<entry code="subs_alert_user_mail_empr_link"><![CDATA[Pour accéder à la fiche lecteur, cliquez <a href='!!pmb_url_base!!circ.php?categ=pret&form_cb=!!empr_cb!!'>ici</a>]]></entry>
+<entry code="subs_alert_user_mail_corps"><![CDATA[Bonjour,<br /><br />Inscription d'un nouveau lecteur via l'OPAC Ã  !!biblio_name!! : !!empr_first_name!! !!empr_name!!.<br /><br />!!empr_link!!<br /><br />]]></entry>
+<entry code="subs_alert_user_mail_empr_link"><![CDATA[Pour accÃ©der Ã  la fiche lecteur, cliquez <a href='!!pmb_url_base!!circ.php?categ=pret&form_cb=!!empr_cb!!'>ici</a>]]></entry>
 <entry code="search_date_pub_date">Recherche par date</entry>
 <entry code="search_date_pub_choix">Choisir une option</entry>
 <entry code="search_date_pub_exacte">Date exacte</entry>
-<entry code="search_date_pub_periode">Période</entry>
-<entry code="search_date_pub_apres">Après le</entry>
+<entry code="search_date_pub_periode">PÃ©riode</entry>
+<entry code="search_date_pub_apres">AprÃ¨s le</entry>
 <entry code="search_date_pub_avant">Avant le</entry>
-<entry code="search_date_pub_res_egal">Date de publication égale au</entry>
+<entry code="search_date_pub_res_egal">Date de publication Ã©gale au</entry>
 <entry code="search_date_pub_res_entre">Date de publication entre le %s et le %s</entry>
-<entry code="search_date_pub_res_sup">Date de publication supérieure au</entry>
-<entry code="search_date_pub_res_inf">Date de publication inférieure au</entry>
+<entry code="search_date_pub_res_sup">Date de publication supÃ©rieure au</entry>
+<entry code="search_date_pub_res_inf">Date de publication infÃ©rieure au</entry>
 <entry code="search_loc_all_site">Tous sites</entry>
-<entry code="search_loc_mpba_bib">Bibliothèque</entry>
+<entry code="search_loc_mpba_bib">BibliothÃ¨que</entry>
 <entry code="perio_a2z_fonds_propre">Fonds propre</entry>
 <entry code="perio_a2z_fonds_externe">Externe</entry>
 <entry code="perio_a2z_filtre">Sources</entry>
 <entry code="perio_a2z_filtre_all">--</entry>
 
-<entry code="author_see_explnum_associate">Documents numériques associés</entry>
+<entry code="author_see_explnum_associate">Documents numÃ©riques associÃ©s</entry>
 
 <entry code="extexplnum_name">Titre</entry>
 <entry code="extexplnum_minetype">Mimetype</entry>
 <entry code="extexplnum_url">Url</entry>
 <entry code="extexplnum_extfichier">Nom du fichier</entry>
-<entry code="admin_opac_facette_annee_saisie">Année (saisie libre)</entry>
-<entry code="admin_opac_facette_annee_calculee">Année (format calculé = aaaa)</entry>
-<entry code="accueil_bannette_privee">Mon information personnalisée</entry>
+<entry code="admin_opac_facette_annee_saisie">AnnÃ©e (saisie libre)</entry>
+<entry code="admin_opac_facette_annee_calculee">AnnÃ©e (format calculÃ© = aaaa)</entry>
+<entry code="accueil_bannette_privee">Mon information personnalisÃ©e</entry>
 <entry code="accueil_bannette_publique">Mon information</entry>
 
-<entry code="show_cart_reserve">Réserver le contenu du panier</entry>
-<entry code="show_cart_reserve_title">Réserver le contenu du panier</entry>
-<entry code="show_cart_reserve_checked">Réserver les notices cochées</entry>
-<entry code="show_cart_reserve_checked_title">Réserver les notices cochées</entry>
+<entry code="show_cart_reserve">RÃ©server le contenu du panier</entry>
+<entry code="show_cart_reserve_title">RÃ©server le contenu du panier</entry>
+<entry code="show_cart_reserve_checked">RÃ©server les notices cochÃ©es</entry>
+<entry code="show_cart_reserve_checked_title">RÃ©server les notices cochÃ©es</entry>
 
-<entry code="resa_no_create">Impossible de créer la réservation.</entry>
-<entry code="resa_ajoutee">Réservation ajoutée.</entry>
-<entry code="resa_no_expl_inlocation_transferable">Réservation: Ce document n'est pas réservable car non transférable </entry>
-<entry code="resa_no_expl_in_location">Réservation: Ce document n'est pas réservable à !!loc_liste!! </entry>
-<entry code="resa_no_suppr">Impossible de supprimer la réservation.</entry>
-<entry code="resa_supprimee">Réservation supprimée.</entry>
+<entry code="resa_no_create">Impossible de crÃ©er la rÃ©servation.</entry>
+<entry code="resa_ajoutee">RÃ©servation ajoutÃ©e.</entry>
+<entry code="resa_no_expl_inlocation_transferable">RÃ©servation: Ce document n'est pas rÃ©servable car non transfÃ©rable </entry>
+<entry code="resa_no_expl_in_location">RÃ©servation: Ce document n'est pas rÃ©servable Ã  !!loc_liste!! </entry>
+<entry code="resa_no_suppr">Impossible de supprimer la rÃ©servation.</entry>
+<entry code="resa_supprimee">RÃ©servation supprimÃ©e.</entry>
 <entry code="resa_dispo_suivant">Ce document est maintenant disponible pour vous </entry>
-<entry code="resa_no_empr">Réservation : vous n'existez pas.</entry>
-<entry code="resa_no_doc">Réservation : ce document n'existe pas.</entry>
-<entry code="resa_deja_resa">Réservation : vous avez déjà réservé ce document.</entry>
-<entry code="resa_deja_doc">Réservation : vous êtes déjà en possession de ce document.</entry>
-<entry code="resa">Réservation</entry>
+<entry code="resa_no_empr">RÃ©servation : vous n'existez pas.</entry>
+<entry code="resa_no_doc">RÃ©servation : ce document n'existe pas.</entry>
+<entry code="resa_deja_resa">RÃ©servation : vous avez dÃ©jÃ  rÃ©servÃ© ce document.</entry>
+<entry code="resa_deja_doc">RÃ©servation : vous Ãªtes dÃ©jÃ  en possession de ce document.</entry>
+<entry code="resa">RÃ©servation</entry>
 <entry code="resa_no_doc_selected">Veuillez cocher au moins un document.</entry>
-<entry code="accueil_bannette_privee">Mon information personnalisée</entry>
+<entry code="accueil_bannette_privee">Mon information personnalisÃ©e</entry>
 <entry code="accueil_bannette_publique">Mon information</entry>
 
 <entry code="explnum_associate_minutes">minutes</entry>
-<entry code="explnum_associate_no_author">Aucun auteur associé</entry>
+<entry code="explnum_associate_no_author">Aucun auteur associÃ©</entry>
 
 <entry code="aut_oeuvre_form_forme">Forme de l'oeuvre (Saisie Libre)</entry>
 <entry code="aut_oeuvre_form_date">Date de l'oeuvre</entry>
 <entry code="aut_oeuvre_form_sujet">Sujet de l'oeuvre</entry>
 <entry code="aut_oeuvre_form_lieu">Lieu d'origine de l'oeuvre</entry>
 <entry code="aut_oeuvre_form_histoire">Histoire de l'oeuvre</entry>
-<entry code="aut_oeuvre_form_caracteristique">Autres caractéristiques distinctives</entry>
-<entry code="aut_oeuvre_form_completude">Complétude visée</entry>
-<entry code="aut_oeuvre_form_public">Public visé</entry>
+<entry code="aut_oeuvre_form_caracteristique">Autres caractÃ©ristiques distinctives</entry>
+<entry code="aut_oeuvre_form_completude">ComplÃ©tude visÃ©e</entry>
+<entry code="aut_oeuvre_form_public">Public visÃ©</entry>
 <entry code="aut_oeuvre_form_contexte">Contexte de l'oeuvre</entry>
-<entry code="aut_oeuvre_form_coordonnees">Coordonnées (oeuvre cartographique)</entry>
+<entry code="aut_oeuvre_form_coordonnees">CoordonnÃ©es (oeuvre cartographique)</entry>
 <entry code="aut_oeuvre_form_equinoxe">Equinoxe (oeuvre cartographique)</entry>
 <entry code="aut_oeuvre_form_auteur">Auteur de l'oeuvre</entry>
-<entry code="tu_dont_del_author">Cet auteur est utilisé dans des titres uniformes. Impossible de le supprimer.</entry>
+<entry code="tu_dont_del_author">Cet auteur est utilisÃ© dans des titres uniformes. Impossible de le supprimer.</entry>
 <entry code="isbd_oeuvre">Oeuvre</entry>
 
 <entry code="accueil_bannette_public">Alerte(s) disponible(s)</entry>
-<entry code="bannette_see_nothing_to_see">Aucune information à afficher</entry>
+<entry code="bannette_see_nothing_to_see">Aucune information Ã  afficher</entry>
 
 <entry code="audit_lecteur">Lecteur opac</entry>
 
 <entry code="etat_todo">A valider</entry>
-<entry code="etat_validate">Validé</entry>
-<entry code="etat_refused">Refusé</entry>
+<entry code="etat_validate">ValidÃ©</entry>
+<entry code="etat_refused">RefusÃ©</entry>
 <entry code="etat_finished">Fini</entry>
-<entry code="etat_givenup">Abandonné</entry>
-<entry code="etat_classified">Archivé</entry>
+<entry code="etat_givenup">AbandonnÃ©</entry>
+<entry code="etat_classified">ArchivÃ©</entry>
 <entry code="etat_opened">Ouvert</entry>
 <entry code="etat_awaiting">En Attente</entry>
-<entry code="etat_closed">Fermé</entry>
-<entry code="type_question">Question/Réponse</entry>
-<entry code="type_info">Information Complémentaire</entry>
+<entry code="etat_closed">FermÃ©</entry>
+<entry code="type_question">Question/RÃ©ponse</entry>
+<entry code="type_info">Information ComplÃ©mentaire</entry>
 <entry code="type_search">Recherche</entry>
 <entry code="type_rdv">Rendez-vous</entry>
 <entry code="demandes_action_sujet">Sujet</entry>
 <entry code="demandes_action_type">Type d'action</entry>
 <entry code="demandes_action_statut">Statut de l'action</entry>
-<entry code="demandes_action_detail">Détail</entry>
+<entry code="demandes_action_detail">DÃ©tail</entry>
 <entry code="demandes_action_progression">Progression</entry>
-<entry code="demandes_action_cout">Coût</entry>
-<entry code="demandes_action_date">Date de début</entry>
-<entry code="demandes_action_date_butoir">Echéance demandée</entry>
-<entry code="demandes_action_time_elapsed">Temps passé</entry>
+<entry code="demandes_action_cout">CoÃ»t</entry>
+<entry code="demandes_action_date">Date de dÃ©but</entry>
+<entry code="demandes_action_date_butoir">EchÃ©ance demandÃ©e</entry>
+<entry code="demandes_action_time_elapsed">Temps passÃ©</entry>
 <entry code="demandes_action_liste">Liste des actions</entry>
-<entry code="demandes_action_nbnotes">Notes associées</entry>
-<entry code="demandes_attribution">Attribuée à</entry>
+<entry code="demandes_action_nbnotes">Notes associÃ©es</entry>
+<entry code="demandes_attribution">AttribuÃ©e Ã </entry>
 <entry code="demandes_retour">Retour</entry>
-<entry code="demandes_action_createur">Créateur</entry>
-<entry code="demandes_action_privacy">Privé</entry>
+<entry code="demandes_action_createur">CrÃ©ateur</entry>
+<entry code="demandes_action_privacy">PrivÃ©</entry>
 <entry code="39">Non</entry>
 <entry code="40">Oui</entry>
-<entry code="demandes_note_privacy">Privé</entry>
-<entry code="demandes_note_no_list">Il n'y a aucune note associée à cette action</entry>
+<entry code="demandes_note_privacy">PrivÃ©</entry>
+<entry code="demandes_note_no_list">Il n'y a aucune note associÃ©e Ã  cette action</entry>
 <entry code="demandes_note_vue">Marquer comme lue</entry>
 <entry code="demandes_note_add">Ajouter une note</entry>
 <entry code="demandes_note_liste">Liste des notes</entry>
-<entry code="demandes_action_liste_vide">Aucune action n'est associée à cette demande.</entry>
+<entry code="demandes_action_liste_vide">Aucune action n'est associÃ©e Ã  cette demande.</entry>
 <entry code="demandes_add">Ajouter une demande</entry>
 <entry code="demandes_action_type_add">Ajouter une action de type</entry>
 <entry code="76">Annuler</entry>
@@ -1468,44 +1468,44 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="demandes_modify">Modifier</entry>
 
 <entry code="faq_question_no_question">Pas de question</entry>
-<entry code="faq_question_no_answer">Pas de réponse</entry>
+<entry code="faq_question_no_answer">Pas de rÃ©ponse</entry>
 <entry code="faq_question_page_title">%d Question(s)</entry>
-<entry code="faq_filter_themes">Thème</entry>
+<entry code="faq_filter_themes">ThÃ¨me</entry>
 <entry code="faq_filter_types">Type</entry>
-<entry code="faq_filter_descriptors">Catégorie</entry>
-<entry code="faq_filter_years">Année</entry>
-<entry code="faq_facette_no_date">Indéterminée</entry>
+<entry code="faq_filter_descriptors">CatÃ©gorie</entry>
+<entry code="faq_filter_years">AnnÃ©e</entry>
+<entry code="faq_facette_no_date">IndÃ©terminÃ©e</entry>
 
-<entry code="demandes_see_last_note">Voir la dernière publication</entry>
+<entry code="demandes_see_last_note">Voir la derniÃ¨re publication</entry>
 
 <entry code="faq_filter_user_query">Recherche dans la FAQ</entry>
 <entry code="faq_facettes_actives">Filtre(s) actif(s)</entry>
 
 <entry code="bannette_abonn">S'abonner</entry>
 <entry code='websubscribe_label'>S'inscrire</entry>
-<entry code='websubscribe_resa_action'>Vous alliez faire une réservation pour  :</entry>
-<entry code='websubscribe_bannette_action'>Vous alliez vous abonner à :</entry>
-<entry code="bannette_doit_etre_abon">Vous devez vous authentifier pour vous abonner à une alerte :</entry>
+<entry code='websubscribe_resa_action'>Vous alliez faire une rÃ©servation pour  :</entry>
+<entry code='websubscribe_bannette_action'>Vous alliez vous abonner Ã  :</entry>
+<entry code="bannette_doit_etre_abon">Vous devez vous authentifier pour vous abonner Ã  une alerte :</entry>
 
 <entry code="facette_list_compare_crit">Comparer entre</entry>
 <entry code="facette_list_groupby_crit">Regrouper par</entry>
 <entry code="facette_compare">Comparer</entry>
-<entry code="facette_compare_not_selected">Pas de critère de comparaison.</entry>
+<entry code="facette_compare_not_selected">Pas de critÃ¨re de comparaison.</entry>
 <entry code="facettes_not_grouped">Sans groupement</entry>
-<entry code="facette_compare_too_more_result">Trop de résultats dans le comparateur</entry>
-<entry code="facette_compare_no_result">Pas de résultat dans le comparateur</entry>
-<entry code="facette_compare_remove">Retirer le critère</entry>
+<entry code="facette_compare_too_more_result">Trop de rÃ©sultats dans le comparateur</entry>
+<entry code="facette_compare_no_result">Pas de rÃ©sultat dans le comparateur</entry>
+<entry code="facette_compare_remove">Retirer le critÃ¨re</entry>
 <entry code="facette_compare_groupby">Regrouper par</entry>
-<entry code="facette_compare_search_result">Revenir au résultat</entry>
+<entry code="facette_compare_search_result">Revenir au rÃ©sultat</entry>
 <entry code="facette_compare_search_compare">Afficher le comparateur</entry>
-<entry code="facette_compare_reinit">Remise à zéro des critères</entry>
+<entry code="facette_compare_reinit">Remise Ã  zÃ©ro des critÃ¨res</entry>
 <entry code="facette_list_compare">Affiner ou comparer</entry>
-<entry code="facette_compare_helper">Aide à l'utilisation des facettes</entry>
-<entry code="facette_compare_helper_message"><![CDATA[Pour affiner votre liste de résultats, cochez les critères souhaités puis cliquez sur \"Filtrer\". Vous pouvez également cliquer sur un critère à la fois.<br />Pour obtenir un tableau de comparaison des résultats, cochez les critères souhaités puis cliquez sur \"Comparer\". Vous pouvez ensuite les regrouper en cliquant sur l\'icône de regroupement.<br />Utilisez les croix rouges pour supprimer les critères sélectionnés.]]></entry>
+<entry code="facette_compare_helper">Aide Ã  l'utilisation des facettes</entry>
+<entry code="facette_compare_helper_message"><![CDATA[Pour affiner votre liste de rÃ©sultats, cochez les critÃ¨res souhaitÃ©s puis cliquez sur \"Filtrer\". Vous pouvez Ã©galement cliquer sur un critÃ¨re Ã  la fois.<br />Pour obtenir un tableau de comparaison des rÃ©sultats, cochez les critÃ¨res souhaitÃ©s puis cliquez sur \"Comparer\". Vous pouvez ensuite les regrouper en cliquant sur l\'icÃ´ne de regroupement.<br />Utilisez les croix rouges pour supprimer les critÃ¨res sÃ©lectionnÃ©s.]]></entry>
 
-<entry code="authperso_see_title">Détail de l'autorité</entry>
+<entry code="authperso_see_title">DÃ©tail de l'autoritÃ©</entry>
 <entry code="authperso_doc_auth_title">Documents disponibles</entry>
-<entry code="authperso_multi_search_title">Autorités personalisées</entry>
+<entry code="authperso_multi_search_title">AutoritÃ©s personalisÃ©es</entry>
 <entry code="categ_see_synonyme">Synonymes</entry>
 <entry code="categ_see_renvoi_voir">Voir aussi</entry>
 
@@ -1522,196 +1522,196 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="collstate_header_surloc_libelle">Sur localisation</entry>
 <entry code="collstate_header_state_collections">Collection</entry>
 <entry code="categ_see_aut_link">Relation(s) </entry>
-<entry code="statut_explnum_sort">Statut de document numérique</entry>
+<entry code="statut_explnum_sort">Statut de document numÃ©rique</entry>
 
-<entry code="authperso_multi_search_by_field_title">Autorité</entry>
+<entry code="authperso_multi_search_by_field_title">AutoritÃ©</entry>
 <entry code="authperso_multi_search_tous_champs_title">Tous les champs</entry>
-<entry code="cms_module_common_datasource_desc_nb_documents">Nombre de documents attachés</entry>
+<entry code="cms_module_common_datasource_desc_nb_documents">Nombre de documents attachÃ©s</entry>
 <entry code="cms_module_common_datasource_desc_documents">Documents</entry>
 
 <entry code="cms_module_common_datasource_desc_small">140x140</entry>
 <entry code="cms_module_common_datasource_desc_medium">300x300</entry>
 <entry code="cms_module_common_datasource_desc_big">600x600</entry>
-<entry code="cms_module_common_datasource_desc_custom">Taille à définir manuellement (concaténer avec un nombre. ex : {{logo.custom}}150)</entry>
+<entry code="cms_module_common_datasource_desc_custom">Taille Ã  dÃ©finir manuellement (concatÃ©ner avec un nombre. ex : {{logo.custom}}150)</entry>
 <entry code="map_notice_echelle">Echelle : </entry>
 <entry code="map_notice_projection">Projection : </entry>
-<entry code="map_notice_ref">Référence : </entry>
+<entry code="map_notice_ref">RÃ©fÃ©rence : </entry>
 <entry code="map_notice_equinoxe">Equinoxe : </entry>
 <entry code="map_notice_transcription">Emprise : </entry>
 <entry code="map_notice_map">Carte : </entry>
-<entry code="search_map">Géolocalisation</entry>
-<entry code="search_by_map">Géolocalisation</entry>
+<entry code="search_map">GÃ©olocalisation</entry>
+<entry code="search_by_map">GÃ©olocalisation</entry>
 <entry code="categ_map_title">Carte</entry>
 
 <entry code="map_echelle">Echelle</entry>
-<entry code="map_projection">Système de projection du document</entry>
-<entry code="map_ref">Système de référence de coordonnées de la carte</entry>
+<entry code="map_projection">SystÃ¨me de projection du document</entry>
+<entry code="map_ref">SystÃ¨me de rÃ©fÃ©rence de coordonnÃ©es de la carte</entry>
 <entry code="map_equinoxe">Equinoxe</entry>
-<entry code="map_echelle_vide">Sans échelle</entry>
+<entry code="map_echelle_vide">Sans Ã©chelle</entry>
 <entry code="map_projection_vide">Sans projection</entry>
-<entry code="map_ref_vide">Sans référence</entry>
+<entry code="map_ref_vide">Sans rÃ©fÃ©rence</entry>
 <entry code="map_search">Carte</entry> 
 <entry code="map_emprise">Emprise</entry>
 <entry code="map_emprises_query">Emprises</entry>
-<entry code="map_multisearch_aerainf">surface inférieure</entry>
-<entry code="map_multisearch_aerasup">surface supérieure</entry>
+<entry code="map_multisearch_aerainf">surface infÃ©rieure</entry>
+<entry code="map_multisearch_aerasup">surface supÃ©rieure</entry>
 <entry code="map_multisearch_intersects">Intersecte</entry>
-<entry code="map_history_emprises"> Géolocalisation : Emprises </entry>
+<entry code="map_history_emprises"> GÃ©olocalisation : Emprises </entry>
 
-<entry code="mail_sugg_non_empr">Visiteur non authentifié</entry>
+<entry code="mail_sugg_non_empr">Visiteur non authentifiÃ©</entry>
 <entry code="mail_sugg_obj">Nouvelle suggestion</entry>
-<entry code="demandes_mail_new_demande">Bonjour, !!nom!! a publié une nouvelle demande: !!titre_demande!!</entry>
-<entry code="demandes_mail_new_demande_object">Une nouvelle demande a été ajoutée !</entry>
+<entry code="demandes_mail_new_demande">Bonjour, !!nom!! a publiÃ© une nouvelle demande: !!titre_demande!!</entry>
+<entry code="demandes_mail_new_demande_object">Une nouvelle demande a Ã©tÃ© ajoutÃ©e !</entry>
 
-<entry code="onto_common_definition">Définition</entry>
-<entry code="onto_common_altlabel">Libellé alternatif</entry>
+<entry code="onto_common_definition">DÃ©finition</entry>
+<entry code="onto_common_altlabel">LibellÃ© alternatif</entry>
 <entry code="onto_common_scopenote">Note d'emploi</entry>
-<entry code="onto_common_inscheme">Dans les schémas</entry>
-<entry code="onto_common_topconceptof">Concept racine dans les schémas</entry>
-<entry code="onto_common_hiddenlabel">Libellé caché</entry>
+<entry code="onto_common_inscheme">Dans les schÃ©mas</entry>
+<entry code="onto_common_topconceptof">Concept racine dans les schÃ©mas</entry>
+<entry code="onto_common_hiddenlabel">LibellÃ© cachÃ©</entry>
 <entry code="onto_common_notation">Notation</entry>
 <entry code="onto_common_note">Notes</entry>
-<entry code="onto_common_changenote">Note modifiée</entry>
-<entry code="onto_common_editorialnote">Note éditoriale</entry>
+<entry code="onto_common_changenote">Note modifiÃ©e</entry>
+<entry code="onto_common_editorialnote">Note Ã©ditoriale</entry>
 <entry code="onto_common_historynote">Note historique</entry>
-<entry code="onto_common_semanticrelation">En relation sémantique avec</entry>
-<entry code="onto_common_broader">Termes génériques</entry>
-<entry code="onto_common_broadertransitive">Termes génériques par transitivité</entry>
-<entry code="onto_common_narrower">Termes spécifiques</entry>
+<entry code="onto_common_semanticrelation">En relation sÃ©mantique avec</entry>
+<entry code="onto_common_broader">Termes gÃ©nÃ©riques</entry>
+<entry code="onto_common_broadertransitive">Termes gÃ©nÃ©riques par transitivitÃ©</entry>
+<entry code="onto_common_narrower">Termes spÃ©cifiques</entry>
 <entry code="onto_common_related">Relations associatives</entry>
-<entry code="onto_common_narrowertransitive">Termes spécifiques par transitivité</entry>
-<entry code="onto_common_mappingrelation">Relations d'équivalence</entry>
-<entry code="onto_common_broadmatch">Termes génériques partiels</entry>
-<entry code="onto_common_narrowmatch">Termes spécifiques partiels</entry>
-<entry code="onto_common_exactmatch">Termes équivalents</entry>
-<entry code="onto_common_relatedmatch">Termes associés</entry>
+<entry code="onto_common_narrowertransitive">Termes spÃ©cifiques par transitivitÃ©</entry>
+<entry code="onto_common_mappingrelation">Relations d'Ã©quivalence</entry>
+<entry code="onto_common_broadmatch">Termes gÃ©nÃ©riques partiels</entry>
+<entry code="onto_common_narrowmatch">Termes spÃ©cifiques partiels</entry>
+<entry code="onto_common_exactmatch">Termes Ã©quivalents</entry>
+<entry code="onto_common_relatedmatch">Termes associÃ©s</entry>
 <entry code="onto_common_closematch">Termes approchants</entry>
-<entry code="onto_common_hastopconcept">Têtes de hiérarchie</entry>
+<entry code="onto_common_hastopconcept">TÃªtes de hiÃ©rarchie</entry>
 <entry code="onto_common_member">Contient</entry>
 <entry code="onto_common_concept">Concepts</entry>
-<entry code="onto_common_conceptscheme">Schémas</entry>
+<entry code="onto_common_conceptscheme">SchÃ©mas</entry>
 <entry code="onto_common_collection">Collections</entry>
-<entry code="onto_common_orderedcollection">Collections ordonnées</entry>
+<entry code="onto_common_orderedcollection">Collections ordonnÃ©es</entry>
 
 <entry code="concepts_start">Concepts :</entry>
 <entry code="skos_view_concepts_concepts">Concepts</entry>
-<entry code="skos_view_concept_no_scheme">Sans schéma</entry>
-<entry code="skos_view_concepts_composed_concepts">Concepts composés</entry>
-<entry code="vedette_subdivision_tete">Tête</entry>
+<entry code="skos_view_concept_no_scheme">Sans schÃ©ma</entry>
+<entry code="skos_view_concepts_composed_concepts">Concepts composÃ©s</entry>
+<entry code="vedette_subdivision_tete">TÃªte</entry>
 <entry code="vedette_subdivision_sujet">Sujet</entry>
-<entry code="vedette_subdivision_geo">Géographique</entry>
-<entry code="vedette_subdivision_chrono">Chronologique</entry>
+<entry code="vedette_subdivision_geo">Geografico</entry>
+<entry code="vedette_subdivision_chrono">Cronologico</entry>
 <entry code="vedette_subdivision_forme">Forme</entry>
 <entry code="skos_view_concept_composition">Composition</entry>
-<entry code="map_coord_format">!!degres!!°!!minutes!!'!!secondes!!''</entry>
+<entry code="map_coord_format">!!degres!!Â°!!minutes!!'!!secondes!!''</entry>
 
-<entry code="opac_print_no_expl_checked">Veuillez sélectionner au moins un document numérique.</entry>
+<entry code="opac_print_no_expl_checked">Veuillez sÃ©lectionner au moins un document numÃ©rique.</entry>
 
-<entry code="concepts_found">concepts trouvés pour la recherche</entry>
+<entry code="concepts_found">concepts trouvÃ©s pour la recherche</entry>
 <entry code="skos_concept">Concept</entry>
 <entry code="concepts_search">Concepts</entry>
 
-<entry code="resa_no_expl_in_location_transferable">Réservation: Ce document n'est pas réservable car non transférable </entry>
-<entry js="carto" code="carto_sexagesimal_degrees">Degrés sexagésimaux</entry>
-<entry js="carto" code="carto_decimal_degrees">Degrés décimaux</entry>
+<entry code="resa_no_expl_in_location_transferable">RÃ©servation: Ce document n'est pas rÃ©servable car non transfÃ©rable </entry>
+<entry js="carto" code="carto_sexagesimal_degrees">DegrÃ©s sexagÃ©simaux</entry>
+<entry js="carto" code="carto_decimal_degrees">DegrÃ©s dÃ©cimaux</entry>
 <entry js="carto" code="carto_lon_abbr">Lon</entry>
 <entry js="carto" code="carto_lat_abbr">Lat</entry>
 <entry js="carto" code="carto_ok_popup">OK</entry>
 <entry js="carto" code="carto_btn_affiner">Affiner</entry>
-<entry js="carto" code="carto_popup_linked_records">Notices Liées</entry>
-<entry js="carto" code="carto_control_rectangle">Rectangle</entry>
-<entry js="carto" code="carto_control_circle">Cercle</entry>
-<entry js="carto" code="carto_control_triangle">Triangle</entry>
-<entry js="carto" code="carto_control_polygon">Polygone</entry>
-<entry js="carto" code="carto_control_path">Ligne</entry>
-<entry js="carto" code="carto_control_point">Point</entry>
-<entry js="carto" code="carto_control_regular_polygon">Polygone régulier</entry>
-<entry js="carto" code="carto_point_label">Point</entry>
+<entry js="carto" code="carto_popup_linked_records">Notices LiÃ©es</entry>
+<entry js="carto" code="carto_control_rectangle">Rettangolo</entry>
+<entry js="carto" code="carto_control_circle">Cerchio</entry>
+<entry js="carto" code="carto_control_triangle">Triangolo</entry>
+<entry js="carto" code="carto_control_polygon">Poligono</entry>
+<entry js="carto" code="carto_control_path">Linea</entry>
+<entry js="carto" code="carto_control_point">Punto</entry>
+<entry js="carto" code="carto_control_regular_polygon">Poligono regolare</entry>
+<entry js="carto" code="carto_point_label">Punto</entry>
 <entry js="carto" code="carto_show_points_label">Afficher les points</entry>
 <entry js="carto" code="carto_show_point_label">Afficher le point</entry>
 <entry js="carto" code="carto_polygon_form_label">Modification fine des points d'un polygone</entry>
 <entry js="carto" code="carto_path_form_label">Modification fine des points d'une ligne</entry>
 <entry js="carto" code="carto_point_form_label">Modification fine du placement d'un point</entry>
-<entry js="carto" code="carto_polygon_nb_pt">Le polygone possède %s points</entry>
-<entry js="carto" code="carto_path_nb_pt">La ligne possède %s points</entry>
-<entry js="carto" code="carto_points_label">points</entry>
-<entry js="carto" code="carto_warning_not_enough_points">Vous n'avez pas renseigné assez de points</entry>
-<entry js="carto" code="carto_warning_no_feature_selected">Aucune emprise sélectionnée</entry>
+<entry js="carto" code="carto_polygon_nb_pt">Le polygone possÃ¨de %s points</entry>
+<entry js="carto" code="carto_path_nb_pt">La ligne possÃ¨de %s points</entry>
+<entry js="carto" code="carto_points_label">punti</entry>
+<entry js="carto" code="carto_warning_not_enough_points">Vous n'avez pas renseignÃ© assez de points</entry>
+<entry js="carto" code="carto_warning_no_feature_selected">Aucune emprise sÃ©lectionnÃ©e</entry>
 <entry js="carto" code="carto_wkt_import_label">Import wkt</entry>
 <entry js="carto" code="carto_wkt_export_label">Export wkt</entry>
 <entry js="carto" code="carto_wkt_import_placeholder">Entrez une chaine WKT ici</entry>
 <entry js="carto" code="carto_validate_label">Valider</entry>
 <entry js="carto" code="carto_warning_invalid_wkt_string">La chaine wkt: %s n'est pas conforme</entry>
-<entry js="carto" code="carto_select_record">Sélectionner emprise</entry>
+<entry js="carto" code="carto_select_record">SÃ©lectionner emprise</entry>
 <entry js="carto" code="carto_draw_label">Dessiner</entry>
 <entry js="carto" code="carto_delete_label">Supprimer</entry>
-<entry js="carto" code="carto_warning_delete">Vous êtes sur le point de supprimer cette emprise. Voulez vous continuer ?</entry>
+<entry js="carto" code="carto_warning_delete">Vous Ãªtes sur le point de supprimer cette emprise. Voulez vous continuer ?</entry>
 <entry js="carto" code="carto_control_edit_label">Modifier</entry>
 <entry js="carto" code="carto_control_resize_label">Redimensionner</entry>
-<entry js="carto" code="carto_control_move_label">Déplacer</entry>
-<entry js="carto" code="carto_refinement_popup">Voulez vous réaliser un affinage sur cette zone ?</entry>
+<entry js="carto" code="carto_control_move_label">DÃ©placer</entry>
+<entry js="carto" code="carto_refinement_popup">Voulez vous rÃ©aliser un affinage sur cette zone ?</entry>
 <entry js="carto" code="carto_control_clustering">Clustering</entry>
-<entry js="carto" code="carto_warning_edit_form">ATTENTION /!\ si vous modifiez votre emprise directement sur la carte, ce formulaire disparaîtra</entry>
+<entry js="carto" code="carto_warning_edit_form">ATTENTION /!\ si vous modifiez votre emprise directement sur la carte, ce formulaire disparaÃ®tra</entry>
 <entry js="carto" code="carto_label_new_point">Nouveau point</entry>
-<entry js="carto" code="carto_warning_point_delete_number">Etes vous sûr de vouloir supprimer le point n°:%s ?</entry>
-<entry js="carto" code="carto_warning_point_delete">Etes vous sûr de vouloir supprimer le point ?</entry>
-<entry js="carto" code="carto_warning_point_misinformed">Point n°:%s mal renseigné.</entry>
-<entry js="carto" code="carto_warning_new_point_misinformed">Nouveau point n°:%s mal renseigné.</entry>
-<entry js="carto" code="carto_label_new_regular_polygon">Création d'un polygone régulier</entry>
+<entry js="carto" code="carto_warning_point_delete_number">Etes vous sÃ»r de vouloir supprimer le point nÂ°:%s ?</entry>
+<entry js="carto" code="carto_warning_point_delete">Etes vous sÃ»r de vouloir supprimer le point ?</entry>
+<entry js="carto" code="carto_warning_point_misinformed">Point nÂ°:%s mal renseignÃ©.</entry>
+<entry js="carto" code="carto_warning_new_point_misinformed">Nouveau point nÂ°:%s mal renseignÃ©.</entry>
+<entry js="carto" code="carto_label_new_regular_polygon">CrÃ©ation d'un polygone rÃ©gulier</entry>
 <entry js="carto" code="carto_label_shape_choosing">Choix de la forme</entry>
 <entry js="carto" code="carto_label_cancel_modifications">Annuler les modifications</entry>
-<entry js="carto" code="carto_label_cancel_last_modification">Annuler la dernière modification</entry>
-<entry js="carto" code="carto_label_regular">Régulier</entry>
-<entry js="carto" code="carto_create_form_point">Création d'un point</entry>
-<entry js="carto" code="carto_create_form_polygon">Création d'un polygone</entry>
-<entry js="carto" code="carto_create_form_path">Création d'une ligne</entry>
+<entry js="carto" code="carto_label_cancel_last_modification">Annuler la derniÃ¨re modification</entry>
+<entry js="carto" code="carto_label_regular">RÃ©gulier</entry>
+<entry js="carto" code="carto_create_form_point">CrÃ©ation d'un point</entry>
+<entry js="carto" code="carto_create_form_polygon">CrÃ©ation d'un polygone</entry>
+<entry js="carto" code="carto_create_form_path">CrÃ©ation d'une ligne</entry>
 
 <entry code="script_analytics_content">Les cookies assurent le bon fonctionnement de nos services; En utilisant ces derniers, vous acceptez l'utilisation des cookies.</entry>
 <entry code="script_analytics_inform_ask_opposite">S'opposer</entry>
 <entry code="script_analytics_inform_ask_accept">Accepter</entry>
-<entry code="accessibility_font_size_small">Réduire le texte</entry>
-<entry code="accessibility_font_size_normal">Réinitialiser le texte</entry>
+<entry code="accessibility_font_size_small">RÃ©duire le texte</entry>
+<entry code="accessibility_font_size_normal">RÃ©initialiser le texte</entry>
 <entry code="accessibility_font_size_big">Agrandir le texte</entry>
-<entry code="empr_quick_access">Accès Rapide</entry>
-<entry code="empr_my_loans">Mes prêts</entry>
-<entry code="empr_my_resas">Mes réservations</entry>
+<entry code="empr_quick_access">AccÃ¨s Rapide</entry>
+<entry code="empr_my_loans">Mes prÃªts</entry>
+<entry code="empr_my_resas">Mes rÃ©servations</entry>
 <entry code="histo_print">Imprimer...</entry>
-<entry code="short_url_generate">Générer le flux rss de la recherche</entry>
-<entry code="newrecord_rss_flux_name">Nouveautés</entry>
-<entry code="notice_title_basket_exist">Cette notice est présente dans votre panier !</entry>
+<entry code="short_url_generate">GÃ©nÃ©rer le flux rss de la recherche</entry>
+<entry code="newrecord_rss_flux_name">NovitÃ </entry>
+<entry code="notice_title_basket_exist">Cette notice est prÃ©sente dans votre panier !</entry>
 
 <entry code="record_display_permalink_label">Lien vers la notice</entry>
 <entry code="record_display_expl_unavailable">Non disponible</entry>
 <entry code="record_display_expl_out">De retour le </entry>
-<entry code="record_display_expl_reserve">Réserver</entry>
-<entry code="record_display_new">Nouveauté</entry>
+<entry code="record_display_expl_reserve">RÃ©server</entry>
+<entry code="record_display_new">NouveautÃ©</entry>
 <entry code="record_display_add_to_cart">Ajouter au panier</entry>
 <entry code="print_output_pdf">Pdf</entry>
-<entry code="docnum_download_checked">Télécharger les documents numériques des notices cochées</entry>
-<entry code="docnum_download_caddie">Télécharger les documents numériques du panier</entry>
-<entry code="docnum_download_no_ck">Veuillez sélectionner au moins une notice !</entry>
-<entry code="resa_planning_date_debut">Début : </entry>
-<entry code="resa_planning_date_fin">Fin : </entry>
+<entry code="docnum_download_checked">TÃ©lÃ©charger les documents numÃ©riques des notices cochÃ©es</entry>
+<entry code="docnum_download_caddie">TÃ©lÃ©charger les documents numÃ©riques du panier</entry>
+<entry code="docnum_download_no_ck">Veuillez sÃ©lectionner au moins une notice !</entry>
+<entry code="resa_planning_date_debut">Inizio: </entry>
+<entry code="resa_planning_date_fin">Fine: </entry>
 <entry code="resa_planning_unknown_record">Notice ou bulletin inconnu</entry>
-<entry code="resa_planning_no_item_available">Aucun exemplaire n'est réservable.</entry>
+<entry code="resa_planning_no_item_available">Aucun exemplaire n'est rÃ©servable.</entry>
 <entry code="resa_planning_loc_retrait">Localisation retrait</entry>
-<entry code="resa_planning_qty_requested">Quantité à réserver</entry>
-<entry code="resa_planning_qty">Qté</entry>
-<entry code="resa_planning_alert_qty">Quantité nulle ou erronée.</entry>
-<entry code="resa_planning_alert_date">La date de fin doit être supérieure à la date de début</entry>
+<entry code="resa_planning_qty_requested">QuantitÃ© Ã  rÃ©server</entry>
+<entry code="resa_planning_qty">QtÃ©</entry>
+<entry code="resa_planning_alert_qty">QuantitÃ© nulle ou erronÃ©e.</entry>
+<entry code="resa_planning_alert_date">La date de fin doit Ãªtre supÃ©rieure Ã  la date de dÃ©but</entry>
 <entry code="resa_planning_title">Titre</entry>
 <entry code="resa_planning_dates">Dates</entry>
-<entry code="resa_planning_current">Mes réservations sur ce document</entry>
-<entry code="resa_planning_overtime">(Périmée)</entry>
+<entry code="resa_planning_current">Mes rÃ©servations sur ce document</entry>
+<entry code="resa_planning_overtime">(PÃ©rimÃ©e)</entry>
 <entry code="resa_planning_attente_validation">(En attente de validation)</entry>
 <entry code="script_analytics_content_link_more">En savoir plus</entry>
-<entry code="notice_is_new_search">Nouveautés</entry>
-<entry code="notice_is_not_new_search">Fonds antérieur</entry>
+<entry code="notice_is_new_search">NouveautÃ©s</entry>
+<entry code="notice_is_not_new_search">Fonds antÃ©rieur</entry>
 
 <entry code="aut_oeuvre_form_distribution">Distribution (oeuvre musicale)</entry>
-<entry code="aut_oeuvre_form_reference">Référence (oeuvre musicale)</entry>
-<entry code="aut_oeuvre_form_tonalite">Tonalité (Saisie Libre)</entry>
-<entry code="aut_oeuvre_form_tonalite_list">Tonalité</entry>
+<entry code="aut_oeuvre_form_reference">RÃ©fÃ©rence (oeuvre musicale)</entry>
+<entry code="aut_oeuvre_form_tonalite">TonalitÃ© (Saisie Libre)</entry>
+<entry code="aut_oeuvre_form_tonalite_list">TonalitÃ©</entry>
 <entry code="aut_oeuvre_form_subdivision">Subdivision de forme</entry>
 <entry code="aut_oeuvre_form_forme_list">Forme de l'oeuvre</entry>
 <entry code="empr_my_dmde">Mes demandes</entry>
@@ -1719,18 +1719,18 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="print_loans_bt">Export tableur</entry>
 
 <entry code="show_cart_check_all">Tout cocher</entry>
-<entry code="show_cart_uncheck_all">Tout décocher</entry>
+<entry code="show_cart_uncheck_all">Tout dÃ©cocher</entry>
 
 <entry code="avis_aucun_popup">Aucun avis sur cette notice.</entry>
 
 <entry code="aut_link_author">[Auteur] %1s</entry>
-<entry code="aut_link_categ">[Catégorie] %1s</entry>
+<entry code="aut_link_categ">[CatÃ©gorie] %1s</entry>
 <entry code="aut_link_publisher">[Editeur] %1s</entry>
 <entry code="aut_link_coll">[Collection] %1s</entry>
 <entry code="aut_link_subcoll">[Sous collection] %1s</entry>
-<entry code="aut_link_serie">[Série] %1s</entry>
+<entry code="aut_link_serie">[SÃ©rie] %1s</entry>
 <entry code="aut_link_tu">[Titre uniforme] %1s</entry>
-<entry code="aut_link_indexint">[Indexation décimale] %1s</entry>
+<entry code="aut_link_indexint">[Indexation dÃ©cimale] %1s</entry>
 
 <entry code="a2z_abt_actif_filter_no_result">Aucun abonnement actif</entry>
 
@@ -1746,28 +1746,28 @@ $Id: it_IT.xml,v 1.302.2.12 2015-12-11 11:14:34 jpermanne Exp $ -->
 <entry code="bbcode_button_label_red"> Red </entry>
 <entry code="bbcode_button_label_list"> List </entry>
 
-<entry code="short_january">jan</entry>
-<entry code="short_february">fév</entry>
-<entry code="short_march">mars</entry>
-<entry code="short_april">avr</entry>
-<entry code="short_may">mai</entry>
-<entry code="short_june">juin</entry>
-<entry code="short_july">juil</entry>
-<entry code="short_august">août</entry>
-<entry code="short_september">sept</entry>
-<entry code="short_october">oct</entry>
+<entry code="short_january">gen</entry>
+<entry code="short_february">feb</entry>
+<entry code="short_march">mar</entry>
+<entry code="short_april">apr</entry>
+<entry code="short_may">mag</entry>
+<entry code="short_june">giu</entry>
+<entry code="short_july">lug</entry>
+<entry code="short_august">ago</entry>
+<entry code="short_september">set</entry>
+<entry code="short_october">ott</entry>
 <entry code="short_november">nov</entry>
-<entry code="short_december">déc</entry>
+<entry code="short_december">dic</entry>
 
 <entry code="show_history_check_all">Tout cocher</entry>
-<entry code="show_history_uncheck_all">Tout décocher</entry>
+<entry code="show_history_uncheck_all">Tout dÃ©cocher</entry>
 <entry code="show_sort_check_all">Tout cocher</entry>
-<entry code="show_sort_uncheck_all">Tout décocher</entry>
+<entry code="show_sort_uncheck_all">Tout dÃ©cocher</entry>
 <entry code="cms_editorial_desc_parent_section">Rubrique parente</entry>
 
-<entry code="cms_module_common_datasource_desc_last_update_date">Date de dernière mise à jour</entry>
+<entry code="cms_module_common_datasource_desc_last_update_date">Date de derniÃ¨re mise Ã  jour</entry>
 <entry code="may">mai</entry>
-<entry code="explnum_singular_label">Document numérique</entry>
+<entry code="explnum_singular_label">Document numÃ©rique</entry>
 
 <entry code="search_navigation_section">sections</entry>
 </XMLlist>
