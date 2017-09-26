@@ -5,7 +5,7 @@
 ****************************************************************************************
 © 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
 ****************************************************************************************
-$Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
+$Id: it_IT.xml,v 1.1007.2.110 2017-06-05 12:55:18 jpermanne Exp $ -->
 
 <XMLlist>
 <entry code="demo">Demo</entry>
@@ -2420,7 +2420,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="acquisition_frais_cond">Condizioni</entry>
 <entry code="acquisition_frais_montant">Montante</entry>
 <entry code="acquisition_frais_already_used">: Questa etichetta esiste già!</entry>
-<entry code="acquisition_frais_error">Il montante deve essere compreso tra 0 e 999999.99 !</entry>
+<entry code="acquisition_frais_error">Il montante deve essere compreso tra 0 e 9999999999.99 !</entry>
 <entry code="acquisition_frais_used">Impossibile eliminare questo tipo di spese.</entry>
 <entry code="acquisition_frais_used_fou">E'utilizzato per i fornitori.</entry>
 <entry code="acquisition_ajout_mode">Aggiungere un modo di pagamento</entry>
@@ -2439,14 +2439,14 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="acquisition_budg_clot">Chiuso</entry>
 <entry code="acquisition_budg_pre">In preparazione</entry>
 <entry code="acquisition_budg_already_used">: Questa etichetta esiste già!</entry>
-<entry code="acquisition_budg_mnt_error">Il montante deve essere compreso tra 0 e 999999.99!</entry>
+<entry code="acquisition_budg_mnt_error">Il montante deve essere compreso tra 0 e 9999999999.99!</entry>
 <entry code="acquisition_budg_seu_error">La soglia sállarme deve essere compresa tra 0 et 100%!</entry>
 <entry code="acquisition_budg_already_actif">Ogni entita può avere un solo bilancio attivo!</entry>
 <entry code="acquisition_budg_confirm_clot">Sei sicuro di voler chiudere il bilancio</entry>
 <entry code="acquisition_rub">Rubrica di bilancio</entry>
 <entry code="acquisition_rub_mnt">Montante</entry>
 <entry code="acquisition_rub_lig">Aggiungere una linea</entry>
-<entry code="acquisition_rub_mnt_error">Il montante delle ribriche deve essere compreso 0 e 999999.99!</entry>
+<entry code="acquisition_rub_mnt_error">Il montante delle ribriche deve essere compreso 0 e 9999999999.99!</entry>
 <entry code="acquisition_ajout_fourn">Aggiungere un fornitore</entry>
 <entry code="acquisition_modif_fourn">Modificare un fornitore</entry>
 <entry code="acquisition_cond_fourn">Condizioni di vendita</entry>
@@ -2528,7 +2528,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="acquisition_lig">Linea</entry>
 <entry code="acquisition_lib_liv_inv">Devi inserire l'etichetta!</entry>
 <entry code="acquisition_qte_liv_inv">La quantità deve essere compresa tra 0 e 99999!</entry>
-<entry code="acquisition_prix_liv_inv">Il prezzo deve essere compreso tra 0 e 999999.99!</entry>
+<entry code="acquisition_prix_liv_inv">Il prezzo deve essere compreso tra 0 e 9999999999.99!</entry>
 <entry code="acquisition_date_liv_inv">Data consengna non valida!</entry>
 <entry code="acquisition_typ_none">...</entry>
 <entry code="acquisition_bud_none">...</entry>
@@ -2641,7 +2641,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="acquisition_liv_vid">Nessuna linea su questa bolla di consegna.</entry>
 <entry code="acquisition_fac_sup">Confermi la cancellazione di questa fattura?</entry>
 <entry code="acquisition_fac_vid">Nessuna linea su questa fattura.</entry>
-<entry code="acquisition_prix_fac_inv">Il prezzo deve essere compreso tra 0 e 999999.99!</entry>
+<entry code="acquisition_prix_fac_inv">Il prezzo deve essere compreso tra 0 e 9999999999.99!</entry>
 <entry code="acquisition_tva_fac_inv">L'IVA deve essere compresa tra 0 e 99.99!</entry>
 <entry code="acquisition_rem_fac_inv">La riduzione deve essere compresa tra 0 e 99.99!</entry>
 <entry code="acquisition_qte_fac_inv">La quantità deve essere compresa tra 1 e 99999!</entry>
@@ -2736,7 +2736,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="acquisition_budg_aff_lib">Incarico</entry>
 <entry code="acquisition_budg_aff_glo">globale</entry>
 <entry code="acquisition_budg_aff_rub">per rubrica</entry>
-<entry code="acquisition_bud_mnt_error">Il montante del  budget deve essere compreso tra 0 e 999999.99!</entry>
+<entry code="acquisition_bud_mnt_error">Il montante del  budget deve essere compreso tra 0 e 9999999999.99!</entry>
 <entry code="acquisition_rub_sol">Saldo</entry>
 <entry code="selector_lib_noti">Records</entry>
 <entry code="selector_lib_bull">Uscite</entry>
@@ -5077,7 +5077,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="acquisition_recept_rech">Recherche réception</entry>
 <entry code="acquisition_recept_rech_error">Ni devis, ni commande n'ont été trouvés avec la clé [!!cle!!]</entry>
 <entry code="acquisition_recept_global_search">Tous les champs = </entry>
-<entry code="acquisition_recept_act_search">Commande/devis = </entry>
+<entry code="acquisition_recept_act_search">Commande = </entry>
 <entry code="acquisition_recept_fou">Fournisseur</entry>
 <entry code="acquisition_recept_lettre_titre">Etat des en-cours.</entry>
 <entry code="acquisition_recept_lettre_ech"> - Echéance au : %s.</entry>
@@ -6449,7 +6449,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="abonnement_raz_grille">RAZ de la grille</entry>
 <entry code="confirm_raz_grille">Etes-vous sûr de remettre à zéro la grille ?</entry>
 	
-<entry code="fiche_export_excel">Export tableau EXCEL</entry>
+<entry code="fiche_export_excel">Export tableur</entry>
 <entry code="fiche_export_tableau">Export tableau HTML</entry>
 <entry code="fiche_export_limite_page1">Afficher</entry>
 <entry code="fiche_export_limite_page2">résultats par page</entry>
@@ -7549,8 +7549,8 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry js="dsi" code="docwatch_add_source">Ajouter une Source</entry>
 <entry code="dsi_docwatch_add_source">Ajouter une nouvelle source</entry>
 <entry code="dsi_docwatch_select_souce_choice">Choisissez un type de source</entry>
-<entry code="dsi_docwatch_datasource_articles">Articles de la base</entry>
-<entry code="dsi_docwatch_datasource_sections">Rubriques de la base</entry>
+<entry code="dsi_docwatch_datasource_articles">Articles du portail</entry>
+<entry code="dsi_docwatch_datasource_sections">Rubriques du portail</entry>
 <entry code="dsi_docwatch_datasource_notices">Notices de la base</entry>
 <entry code="dsi_docwatch_datasource_notices_rss">Notices RSS de la base</entry>
 <entry code="dsi_docwatch_datasource_title">Nom</entry>
@@ -7834,7 +7834,7 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 
 <entry code="acquisition_cde_date_val">Date de validation</entry>
 
-<entry code="acquisitions_export_excel">Export tableau EXCEL</entry>
+<entry code="acquisitions_export_excel">Export tableur</entry>
 
 <entry code="cp_auth_show_all">Tout afficher</entry>
 <entry code="cp_auth_show_last">Uniquement la dernière feuille de l'arbre de la catégorie</entry>
@@ -7926,4 +7926,284 @@ $Id: it_IT.xml,v 1.1007.2.27 2015-12-10 15:20:29 dgoron Exp $ -->
 <entry code="chklnk_chk_vign">Vérifier les url des vignettes des notices</entry>
 <entry code="chklnk_verifvign">Vérification des url des vignettes de notices</entry>
 <entry code="deflt_agnostic_warehouse">Entrepôt par défaut en suppression de notices d'un panier</entry>
+<entry code="deflt_cms_article_statut">Statut de publication d'article par défaut en création d'article</entry>
+<entry code="deflt_cms_article_type">Type de contenu par défaut en création d'article</entry>
+<entry code="deflt_cms_section_type">Type de contenu par défaut en création de rubrique</entry>
+<entry code="dsi_bannette_aff_notice_number">Afficher le nombre de résultat dans le mail</entry>
+<entry code="cms_build_versions_id">id</entry>
+<entry code="dsi_docwatch_datasource_deleted">Source supprimée</entry>
+
+<entry code="selvars_public">Libellé OPAC de la bannette</entry>
+<entry code="selvars_date">Date de diffusion</entry>
+
+<entry code="collstate_header_emplacement_libelle">Emplacement</entry>
+<entry code="collstate_header_type_libelle">Support</entry>
+<entry code="collstate_header_origine">Origine</entry>
+<entry code="collstate_header_note">Note</entry>
+<entry code="collstate_header_cote">Cote</entry>
+<entry code="collstate_header_archive">Archive</entry>
+<entry code="collstate_header_lacune">Lacunes</entry>
+<entry code="collstate_header_statut_opac_libelle">Statut</entry>
+<entry code="collstate_header_location_libelle">Localisation</entry>
+<entry code="collstate_header_surloc_libelle">Sur localisation</entry>
+<entry code="collstate_header_state_collections">Collection</entry>
+<entry code="cms_build_reset_all_css_bt">Purger toutes les CSS</entry>
+<entry code="cms_build_reset_all_css_bt_confirm">Confirmez-vous la suppression du style de tous les cadres ?</entry>
+<entry code="serialcirc_diff_record_button_other">Enregistrer et continuer</entry>
+
+<entry code="secouru_invalid_file">Fichier non valide !</entry>
+<entry code="secouru_force_recup">Lancer quand même la récupération</entry>
+<entry code="secouru_error_file_intro">PRET SECOURU ou RETOUR SECOURU attendu</entry>
+<entry code="secouru_error_file_empr">Un code barre lecteur est attendu</entry>
+<entry code="secouru_error_file_expl">Un code barre exemplaire est attendu</entry>
+<entry code="secouru_error_file_line">Erreur à la ligne</entry>
+<entry code="secouru_recup_ok">Récupération terminée</entry>
+<entry code="secouru_valid_file">Fichier valide : lancement de la récupération...</entry>
+<entry code="secouru_pret">Prêt</entry>
+<entry code="secouru_retour">Retour</entry>
+<entry code="secouru_pret_done">effectué</entry>
+<entry code="secouru_pret_unknown_borrower">Lecteur inconnu</entry>
+<entry code="secouru_pret_unknown_expl">Exemplaire inconnu</entry>
+<entry code="secouru_retour_unknown_expl">Exemplaire inconnu</entry>
+
+<entry code="acquisition_sugg_date">Du %1s au %2s</entry>
+<entry code="selector_lib_visitor">Visiteur</entry>
+
+<entry code="user_created_date">Créé le : </entry>
+<entry code="serial_circ_state_edit">Etat des circulations</entry>
+<entry code="serial_circ_state_end_location">Localisation en fin de circulation</entry>
+
+<entry code="menu_alert_demande_abo">Inscriptions</entry>
+<entry code="alert_demande_abo">A traiter</entry>
+<entry code="alert_subscribe_serialcirc_mail">Alerter par mail des nouvelles demandes OPAC d'abonnement au listes de circulation ?</entry>
+
+<entry code="reset_same_section">Conserver la section</entry>
+
+<entry code="resa_valider_suppression_confirm">Etes-vous sûr de vouloir supprimer la sélection ?</entry>
+
+<entry code="dsi_docwatch_watch_form_options_rss">Options RSS</entry>
+<entry code="dsi_docwatch_watch_form_rss_link">Lien vers le site web </entry>
+<entry code="dsi_docwatch_watch_form_rss_lang">Langue</entry>
+<entry code="dsi_docwatch_watch_form_rss_copyright">Copyright</entry>
+<entry code="dsi_docwatch_watch_form_rss_editor">Courriel de l'éditeur</entry>
+<entry code="dsi_docwatch_watch_form_rss_webmaster">Courriel du webmestre</entry>
+<entry code="dsi_docwatch_watch_form_rss_image_title"> Titre de l'image</entry>
+<entry code="dsi_docwatch_watch_form_rss_image_website">Image : lien vers le site web</entry>
+
+<entry code="del_bulletin_notice">Supprimer</entry>
+<entry code="del_bulletin_notice_confirm">Etes-vous sûr de vouloir supprimer la notice du bulletin ?</entry>
+
+<entry code="bannette_tpl_insert_records_render">Rendu des notices</entry>
+<entry code="bannette_tpl_insert_records_length">Nombre de notices diffusées</entry>
+<entry code="serialcirc_empr_duplicate_button">Dupliquer les abonnements cochés</entry>
+<entry code="serialcirc_empr_duplicate_confirm">Voulez-vous vraiment dupliquer les abonnements cochés ?</entry>
+<entry code="serialcirc_duplicate_already_subcribed">Impossible de dupliquer l'abonnement %s, le lecteur "%s" y est déjà abonné</entry>
+<entry code="serialcirc_empr_duplicated">Des abonnements ont été dupliqués vers %s</entry>
+
+<entry code="search_record_creator">Créateur de la notice</entry>
+
+<entry code="empr_caddie_creation_info">Créé le %s par %s.</entry>
+<entry code="empr_caddie_creation_no_info">Pas d'information sur la création du panier.</entry>
+
+<entry code="search_item_creator">Créateur de l'exemplaire</entry>
+
+<entry code="resa_date_debut_td">Début validité</entry>
+<entry code="resa_date_fin_td">Fin validité</entry>
+<entry code="fpdf_valable_debut">valable du :</entry>
+
+<entry code="no_location">Aucune localisation</entry>
+<entry code="planificateur_catalog_docwatches">Veille automatique</entry>
+<entry code="cms_build_cadre_filter">Filtre rapide:</entry>
+<entry code="cms_build_cadre_filter_placeholder">Nom ou identifiant du cadre</entry>
+
+<entry code="group_add_resp">Ajouter le responsable au groupe</entry>
+
+<entry code="caddie_select_access_rights">Recalcul des droits d'accès des éléments du panier</entry>
+<entry code="caddie_situation_access_rights">Recalcul des droits d'accès des éléments du panier terminé :</entry>
+<entry code="caddie_situation_access_rights_encours">Recalcul des droits d'accès des éléments du panier en cours... Merci de patienter</entry>
+
+<entry code="abo_date_incorrecte">Les dates de début et de fin d'abonnement ne peuvent outrepasser celles du ou des modèles associés.</entry>
+
+<entry code="serialcirc_print_empr_loc">Localisation du lecteur</entry>
+
+<entry code="sugg_export_tableau">Export tableau</entry>
+
+<entry code="selvars_empr_dated">Date début adhésion</entry>
+<entry code="selvars_empr_datef">Date fin adhésion</entry>
+
+<entry code="cms_build_versions_user">Login PMB</entry>
+
+<entry code="selvars_equation">Equation de la recherche</entry>
+
+<entry code="bannette_tpl_insert_group_bannette">Bannette</entry>
+<entry code="bannette_tpl_insert_group_empr">Emprunteur</entry>
+<entry code="bannette_tpl_insert_group_loc">Localisation de l'emprunteur</entry>
+<entry code="bannette_tpl_insert_empr_name">Nom</entry>
+<entry code="bannette_tpl_insert_empr_first_name">Prénom</entry>
+<entry code="bannette_tpl_insert_empr_civ">Civilité</entry>
+<entry code="bannette_tpl_insert_empr_cb">Code-barres</entry>
+<entry code="bannette_tpl_insert_empr_login">Login</entry>
+<entry code="bannette_tpl_insert_empr_mail">Email</entry>
+<entry code="bannette_tpl_insert_empr_name_and_adress">Adresse</entry>
+<entry code="bannette_tpl_insert_empr_tout">Toutes les informations</entry>
+<entry code="bannette_tpl_insert_empr_connect">Connexion automatique à l'OPAC</entry>
+<entry code="bannette_tpl_insert_loc_name">Nom</entry>
+<entry code="bannette_tpl_insert_loc_adr1">Adresse 1</entry>
+<entry code="bannette_tpl_insert_loc_adr2">Adresse 2</entry>
+<entry code="bannette_tpl_insert_loc_cp">Code postal</entry>
+<entry code="bannette_tpl_insert_loc_town">Ville</entry>
+<entry code="bannette_tpl_insert_loc_phone">Téléphone</entry>
+<entry code="bannette_tpl_insert_loc_email">Email</entry>
+<entry code="bannette_tpl_insert_loc_website">Site internet</entry>
+
+<entry code="cms_document_url">Url du fichier</entry>
+
+<entry code="selvars_empr_group_empr">Emprunteur</entry>
+<entry code="selvars_empr_group_loc">Localisation de l'emprunteur</entry>
+<entry code="selvars_empr_loc_name">Nom</entry>
+<entry code="selvars_empr_loc_adr1">Adresse 1</entry>
+<entry code="selvars_empr_loc_adr2">Adresse 2</entry>
+<entry code="selvars_empr_loc_cp">Code postal</entry>
+<entry code="selvars_empr_loc_town">Ville</entry>
+<entry code="selvars_empr_loc_phone">Téléphone</entry>
+<entry code="selvars_empr_loc_email">Email</entry>
+<entry code="selvars_empr_loc_website">Site internet</entry>
+
+<entry code="empr_fiche_tel">Tél. :</entry>
+<entry code="cms_build_toolkits">Toolkits</entry>
+<entry code="cms_toolkit_active">Activer :</entry>
+<entry code="cms_toolkit_activated">Activé</entry>
+<entry code="cms_toolkit_disabled">Désactivé</entry>
+<entry code="cms_toolkit_uikit_information">NB : Uikit requiert l'activation de Jquery pour fonctionner.</entry>
+<entry code="cms_toolkit_uikit_data_them">Thème :</entry>
+<entry code="cms_toolkit_uikit_data_them_uikit">Default</entry>
+<entry code="cms_toolkit_uikit_data_them_uikit.gradient">Gradient</entry>
+<entry code="cms_toolkit_uikit_data_them_uikit.almost-flat">Almost Flat</entry>
+<entry code="cms_toolkit_uikit_data_components">composant(s) activé(s)</entry>
+<entry code="cms_toolkit_uikit_data_them_selection">Sélection du thème :</entry>
+<entry code="cms_toolkit_uikit_data_components_selection">Sélection des composants à charger :</entry>
+<entry code="cms_toolkit_jquery_data_version_selection">Sélection de la version :</entry>
+<entry code="cms_toolkit_jquery_data_version">Version :</entry>
+<entry code="cms_toolkit_jquery_data_components_selection">Sélection des composants à charger :</entry>
+<entry code="cms_toolkits_save">Enregistrer</entry>
+
+<entry js="dsi" code="dsi_js_item_action_create_record_doublon_confirm">Il existe une ou plusieurs notices similaires. Souhaitez-vous forcer  l'enregistrement ?</entry>
+
+<entry code="serialcirc_fiche_circu_last_empr_first_name">Dernier lecteur: Nom</entry>
+<entry code="serialcirc_fiche_circu_last_empr_last_name">Dernier lecteur: Prénom</entry>
+<entry code="serialcirc_fiche_circu_last_empr_lib">Dernier lecteur: Libellé</entry>
+<entry code="serialcirc_fiche_circu_last_empr_mail">Dernier lecteur: Mail</entry>
+<entry code="serialcirc_fiche_circu_last_empr_cb">Dernier lecteur: Code-barre</entry>
+<entry code="serialcirc_fiche_circu_bull_cb">Bulletin: Code-barre</entry>
+<entry code="serialcirc_fiche_circu_bull_num">Bulletin: Numéro</entry>
+<entry code="serialcirc_fiche_circu_bull_date">Bulletin: date</entry>
+<entry code="serialcirc_fiche_circu_bull_serialname">Bulletin: Nom du périodique</entry>
+<entry code="serialcirc_fiche_circu_bull_location">Bulletin: Localisation</entry>
+<entry code="serialcirc_fiche_circu_bull_cote">Bulletin: Cote</entry>
+
+<entry code="last_import_isbn_doublons">Doublons ISBN du dernier import</entry>
+<entry code="last_import_isbn_doublons_found">Pour retrouver les notices déjà existantes correspondant à cet import, vous pouvez effectuer une recherche multicritère avec le critère "Doublons ISBN du dernier import".</entry>
+<entry code="last_import_isbn_doublons_msg_search">Votre import du </entry>
+<entry code="last_import_isbn_doublons_msg_search_no_import">Aucun import réalisé ou import sans doublon sur ISBN, la recherche échouera.</entry>
+<entry code="dsi_docwatch_watch_form_boolean_expression">Filtrer les nouveaux éléments avec une expression booléènne</entry>
+<entry code="dsi_docwatch_datasource_boolean_expression">Filtrer les nouveaux éléments avec une expression booléènne</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website">Surveillance de sites web</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_mode_creation_items">Mode de création des nouveaux éléments</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_xpath_expressions">Expressions XPath pour cibler des éléments dans la page</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_mode_creation_items_by_change">Pour chaque modification de texte dans la page</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_mode_creation_items_all_change">Pour toutes les modifications de texte dans la page</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_mode_creation_items_all_links">Pour tous les nouveaux liens de la page</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website">Surveillance de site web</entry>
+<entry code="dsi_docwatch_selector_monitoring_website_url">Lien de la page web à surveiller</entry>
+<entry code="dsi_docwatch_selector_monitoring_website">Par lien de page web</entry>
+
+<entry code="font_color">couleur police (format hexadécimal)</entry>
+
+<entry code="deflt_catalog_expanded_caddies">Classements dépliés par défaut (paniers catalogue et circulation, étagères, infopages)</entry>
+
+<entry code="selfservice_resa_dispo">Vous avez des documents réservés disponibles</entry>
+
+<entry js="dsi" code="docwatch_watch_filter_deleted">Afficher les items supprimés :</entry>
+<entry js="dsi" code="docwatch_yes">Oui</entry>
+<entry js="dsi" code="docwatch_no">Non</entry>
+<entry code="parperso_date_inter">Intervalle de dates</entry>
+
+<entry code="admin_menu_notice_usage">Droits d'usage</entry>
+<entry code="notice_usage_libelle">Droit d'usage</entry>
+<entry code="notice_usage_ajout">Ajouter un droit d'usage</entry>
+<entry code="notice_usage_modification">Modifier un droit d'usage</entry>
+<entry code="notice_usage_used">Impossible de supprimer ce droit d'usage car il est utilisé dans des notices.</entry>
+<entry code="notice_usage_none">Aucun droit spécifique</entry>
+
+<entry code="prolongation_pret_quota_atteint">Quota atteint</entry>
+<entry code="prolongation_pret_bloc_ok">Prêts prolongés</entry>
+<entry code="prolongation_pret_bloc_resa">Documents réservés</entry>
+<entry code="prolongation_pret_bloc_quota">Quotas atteints</entry>
+<entry code="prolongation_pret_bloc_refuse">Prolongations de prêt refusées</entry>
+<entry code="prolongation_pret_bloc_refuse_forcage">Forcer les prolongations</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_xpath_expressions_for_title">Expressions XPath pour cibler le titre des nouveaux éléments</entry>
+<entry code="dsi_docwatch_datasource_monitoring_website_xpath_expressions_for_link">Expressions XPath pour cibler le lien des nouveaux éléments</entry>
+
+<entry js="dsi" code="dsi_js_item_action_remove_tag">Supprimer le tag</entry>
+
+<entry code="abo_date_fin_incorrecte">La date de fin d'abonnement ne peut outrepasser celle du ou des modèles associés.</entry>
+<entry code="abo_date_prolonge_incorrecte">La prolongation ne peut être effectuée car la date de fin d'abonnement va outrepasser celle du ou des modèles associés.</entry>
+
+<entry code="planificateur_help_examples_explained">(toutes les 2 heures entre 11h et 19h)</entry>
+
+<entry code="export_tableur">Export tableur</entry>
+<entry code="export_tableau_html">Export tableau HTML</entry>
+
+<entry code="explnum_error_rep_upload">Veuillez choisir un chemin d'upload correct.</entry>
+
+<entry code="bannette_tpl_insert_records_length_total">Nombre de notices total</entry>
+
+<entry code="niveau_biblio">Niveau bibliographique</entry>
+
+<entry code="transferts_circ_retour_a_retourner_direct">ATTENTION : document envoyé à !!source_location!!.</entry>
+
+<entry code="transferts_edition_reception">Réception</entry>
+
+<entry code="serialcirc_circ_list_bull_circulation_periode">Libellé de période</entry>
+
+<entry js="cms_tree" code="confirm">En quittant ce contenu éditorial, vous perdrez les modifications apportées.</entry>
+
+<entry code="selvars_empr_loans_late">les prêts en retard</entry>
+
+<entry code="notice_tpl_show_loc_btn">Afficher les localisations</entry>
+
+<entry code="interpreter_doc_notice_tpl_link">Consulter la liste des fonctions disponibles</entry>
+
+<entry code="opac_faq_link">Ouvrir la FAQ dans l'OPAC</entry>
+
+<entry code="interpreter_doc_consolidation_link">Consulter la liste des fonctions de consolidation disponibles</entry>
+<entry code="interpreter_doc_interpreter_link">Consulter la liste des fonctions disponibles</entry>
+<entry code="etagere_comment_gestion">Commentaire de gestion</entry>
+
+<entry code="bannette_tpl_gerer_vos_alertes">Gérer vos alertes</entry>
+
+<entry code="dsi_nb_ban_par_page">Nombre de bannettes par page</entry>
+
+<entry code="isbd_notice_isbn">ISBN</entry>
+
+<entry code="delete_empr_passwords">Nettoyer les mots de passe des lecteurs si leur encodage a réussi</entry>
+<entry code="deleting_empr_passwords">Nettoyage des mots de passe des lecteurs</entry>
+<entry code="need_to_clean_empr_passwords">Les mots de passe des lecteurs doivent être nettoyés.</entry>
+
+<entry code="nettoyage_reindex_tu">Réindexation des titres uniformes</entry>
+<entry code="nettoyage_res_reindex_tu">titres uniformes traités.</entry>
+
+<entry code="prolongation_date_fermeture">La date sélectionnée n'est pas une date d'ouverture.\nSouhaitez-vous la remplacer par le prochain jour d'ouverture ?</entry>
+
+<entry code="current_short_loans">Prêts courts : En cours</entry>
+
+<entry code="explnum_url_vignette">Url de la vignette</entry>
+
+<entry code="abonnements_actif_img_title">Abonnement actif</entry>
+<entry code="abonnements_actif_search_filter">Filtrer sur les abonnements actifs</entry>
+
+<entry code="import_force_notice_is_new">Créer les notices en tant que nouveauté</entry>
+
+<entry code="mail_resp_liste_prets">Email responsable</entry>
+<entry code="mail_resp_liste_prets_confirm_js">Etes-vous sûr de vouloir envoyer par mail la liste des prêts au responsable du groupe ?</entry>
 </XMLlist>
